@@ -1,0 +1,1012 @@
+Request_Number,Employees,Monthly_Profit,Credit_History,Customers,Export_Abroad,Loan_Amount,Payment_Terms,Gender,Education,Married,Spouse_Income,Request_Approved
+Loan1,1,2014,1,Large,No,113,360,Male,Graduate,Yes,2925,N
+Loan2,0,1800,0,Large,No,93,360,Male,Not Graduate,Yes,2934,N
+Loan3,,2875,1,Medium,No,105,360,Male,Not Graduate,Yes,1750,Y
+Loan4,0,5000,1,Small,No,132,360,Female,Graduate,No,0,Y
+Loan5,1,1625,1,Large,No,96,360,Male,Graduate,Yes,1803,Y
+Loan6,0,4000,1,Small,No,140,360,Male,Graduate,No,2500,Y
+Loan7,0,2000,1,Large,No,,360,Male,Not Graduate,No,0,N
+Loan8,0,3762,1,Small,No,135,360,Female,Graduate,No,1666,Y
+Loan9,0,2400,0,Large,No,104,360,Female,Graduate,No,1863,N
+Loan10,0,20233,1,Small,No,480,360,Male,Graduate,No,0,N
+Loan11,2,7667,,Small,No,185,360,Male,Not Graduate,Yes,0,Y
+Loan12,0,2917,1,Medium,No,84,360,Female,Graduate,No,0,Y
+Loan13,0,2927,1,Medium,No,111,360,Male,Not Graduate,No,2405,Y
+Loan14,0,2507,1,Small,No,56,360,Female,Graduate,No,0,Y
+Loan15,2,5746,,Small,Yes,144,84,Male,Graduate,Yes,0,Y
+Loan16,0,2473,1,Small,No,159,360,,Graduate,Yes,1843,N
+Loan17,1,3399,1,Large,No,111,180,Male,Not Graduate,Yes,1640,Y
+Loan18,2,3717,1,Medium,No,120,360,Male,Graduate,Yes,0,Y
+Loan19,0,2058,,Large,No,88,360,Male,Graduate,Yes,2134,Y
+Loan20,1,3541,,Medium,No,112,360,Female,Graduate,No,0,Y
+Loan21,1,10000,1,Small,Yes,155,360,Male,Graduate,Yes,0,N
+Loan22,0,2400,1,Medium,No,115,360,Male,Graduate,Yes,2167,Y
+Loan23,3+,4342,1,Medium,No,124,360,Male,Graduate,Yes,189,Y
+Loan24,2,3601,1,Small,No,,360,Male,Not Graduate,Yes,1590,Y
+Loan25,0,3166,,Small,No,132,360,Female,Graduate,No,2985,Y
+Loan26,3+,15000,1,Small,No,300,360,Male,Graduate,Yes,0,Y
+Loan27,1,8666,0,Small,Yes,376,360,Male,Graduate,Yes,4983,N
+Loan28,0,4917,0,Small,No,130,360,Male,Graduate,No,0,Y
+Loan29,0,5818,1,Medium,Yes,184,360,Male,Graduate,Yes,2160,Y
+Loan30,0,4333,1,Large,No,110,360,Female,Graduate,Yes,2451,N
+Loan31,0,2500,1,Large,No,67,360,Female,Graduate,No,0,Y
+Loan32,1,4384,1,Large,No,117,360,Male,Graduate,No,1793,Y
+Loan33,0,2935,1,Medium,No,98,360,Male,Graduate,No,0,Y
+Loan34,,2833,1,Large,No,71,360,Male,Graduate,No,0,Y
+Loan35,0,63337,1,Large,,490,180,Male,Graduate,Yes,0,Y
+Loan36,1,9833,1,Large,Yes,182,180,,Graduate,Yes,1833,Y
+Loan37,,5503,1,Medium,Yes,70,,Male,Graduate,Yes,4490,Y
+Loan38,1,5250,1,Small,,160,360,Male,Graduate,Yes,688,Y
+Loan39,2,2500,1,Small,Yes,176,360,Male,Graduate,Yes,4600,Y
+Loan40,3+,1830,0,Large,No,,360,Female,Not Graduate,No,0,N
+Loan41,0,4160,1,Medium,No,71,360,Female,Graduate,No,0,Y
+Loan42,3+,2647,1,Small,No,173,360,Male,Not Graduate,Yes,1587,N
+Loan43,0,2378,1,Small,No,46,360,Female,Graduate,No,0,N
+Loan44,1,4554,1,Large,No,158,360,Male,Not Graduate,Yes,1229,Y
+Loan45,3+,3173,1,Medium,No,74,360,Male,Not Graduate,Yes,0,Y
+Loan46,2,2583,1,Small,,125,360,Male,Graduate,Yes,2330,Y
+Loan47,0,2499,1,Medium,No,160,360,Male,Graduate,Yes,2458,Y
+Loan48,,3523,0,Small,No,152,360,Male,Not Graduate,Yes,3230,N
+Loan49,2,3083,1,Large,No,126,360,Male,Not Graduate,Yes,2168,Y
+Loan50,0,6333,,Medium,No,259,360,Male,Graduate,Yes,4583,Y
+Loan51,0,2625,1,Small,No,187,360,Male,Graduate,Yes,6250,Y
+Loan52,0,9083,1,Medium,No,228,360,Male,Graduate,Yes,0,Y
+Loan53,0,8750,1,Small,No,308,360,Male,Graduate,No,4167,N
+Loan54,3+,2666,1,Small,No,95,360,Male,Graduate,Yes,2083,Y
+Loan55,0,5500,0,Small,Yes,105,360,Female,Graduate,Yes,0,N
+Loan56,0,2423,1,Medium,No,130,360,Female,Graduate,Yes,505,Y
+Loan57,,3813,1,Large,No,116,180,Female,Graduate,No,0,Y
+Loan58,2,8333,1,Small,No,165,360,Male,Graduate,Yes,3167,Y
+Loan59,1,3875,1,Large,No,67,360,Male,Graduate,Yes,0,N
+Loan60,0,3000,0,Large,No,100,480,Male,Not Graduate,Yes,1666,N
+Loan61,3+,5167,1,Medium,No,200,360,Male,Graduate,Yes,3167,Y
+Loan62,1,4723,1,Medium,No,81,360,Female,Graduate,No,0,N
+Loan63,2,5000,1,Medium,No,236,360,Male,Graduate,Yes,3667,Y
+Loan64,0,4750,1,Large,No,130,360,Male,Graduate,Yes,2333,Y
+Loan65,0,3013,,Large,No,95,300,Male,Graduate,Yes,3033,Y
+Loan66,0,6822,1,Small,Yes,141,360,Male,Graduate,No,0,Y
+Loan67,0,6216,1,Small,No,133,360,Male,Not Graduate,No,0,N
+Loan68,0,2500,1,Medium,No,96,480,Male,Graduate,No,0,N
+Loan69,0,5124,0,Small,No,124,,Male,Graduate,No,0,N
+Loan70,1,6325,1,Medium,No,175,360,Male,Graduate,Yes,0,Y
+Loan71,0,19730,1,Small,No,570,360,Male,Graduate,Yes,5266,N
+Loan72,0,15759,1,Medium,Yes,55,360,Female,Graduate,No,0,Y
+Loan73,2,5185,1,Medium,No,155,360,Male,Graduate,Yes,0,Y
+Loan74,2,9323,1,Small,Yes,380,300,Male,Graduate,Yes,7873,Y
+Loan75,1,3062,0,Large,No,111,180,Male,Graduate,No,1987,N
+Loan76,0,2764,1,Large,,110,360,Female,Graduate,No,1459,Y
+Loan77,0,4817,1,Large,No,120,180,Male,Graduate,Yes,923,Y
+Loan78,3+,8750,1,Small,No,130,360,Male,Graduate,Yes,4996,Y
+Loan79,0,4310,,Medium,No,130,360,Male,Graduate,Yes,0,Y
+Loan80,0,3069,1,Large,No,71,480,Male,Graduate,No,0,N
+Loan81,2,5391,1,Large,No,130,360,Male,Graduate,Yes,0,Y
+Loan82,0,3333,1,Medium,,128,360,Male,Graduate,Yes,2500,Y
+Loan83,0,5941,1,Medium,No,296,360,Male,Graduate,No,4232,Y
+Loan84,0,6000,1,Large,No,156,360,Female,Graduate,No,0,Y
+Loan85,0,7167,1,Large,Yes,128,360,Male,Graduate,No,0,Y
+Loan86,2,4566,1,Large,No,100,360,Male,Graduate,Yes,0,N
+Loan87,1,3667,1,Large,,113,180,Male,Graduate,No,0,Y
+Loan88,0,2346,1,Medium,No,132,360,Male,Not Graduate,No,1600,Y
+Loan89,0,3010,0,Large,No,,360,Male,Not Graduate,Yes,3136,N
+Loan90,0,2333,1,Large,No,136,360,Male,Graduate,Yes,2417,Y
+Loan91,0,5488,1,Small,No,125,360,Male,Graduate,Yes,0,Y
+Loan92,3+,9167,1,Small,No,185,360,Male,Graduate,No,0,Y
+Loan93,3+,9504,1,Small,No,275,360,Male,Graduate,Yes,0,Y
+Loan94,0,2583,,Large,No,120,360,Male,Graduate,Yes,2115,Y
+Loan95,2,1993,1,Medium,No,113,180,Male,Not Graduate,Yes,1625,Y
+Loan96,2,3100,1,Large,No,113,360,Male,Graduate,Yes,1400,Y
+Loan97,2,3276,,Medium,No,135,360,Male,Graduate,Yes,484,Y
+Loan98,0,3180,0,Large,No,71,360,Female,Graduate,No,0,N
+Loan99,0,3033,1,Large,No,95,360,Male,Graduate,Yes,1459,Y
+Loan100,0,3902,1,Small,No,109,360,Male,Not Graduate,No,1666,Y
+Loan101,0,1500,0,Medium,No,103,360,Female,Graduate,No,1800,N
+Loan102,2,2889,0,Large,No,45,180,Male,Not Graduate,Yes,0,N
+Loan103,0,2755,1,Small,No,65,300,Male,Not Graduate,No,0,N
+Loan104,0,2500,1,Medium,No,103,360,Male,Graduate,No,20000,Y
+Loan105,0,1963,1,Medium,No,53,360,Female,Not Graduate,No,0,Y
+Loan106,0,7441,1,Small,Yes,194,360,Female,Graduate,No,0,N
+Loan107,0,4547,1,Medium,No,115,360,Female,Graduate,No,0,Y
+Loan108,0,2167,1,Large,No,115,360,Male,Not Graduate,Yes,2400,Y
+Loan109,0,2213,1,Small,No,66,360,Female,Not Graduate,No,0,Y
+Loan110,1,8300,0,Medium,No,152,300,Male,Graduate,Yes,0,N
+Loan111,3+,81000,0,Small,No,360,360,Male,Graduate,Yes,0,N
+Loan112,1,3867,1,Medium,Yes,62,360,Female,Not Graduate,No,0,N
+Loan113,0,6256,,Large,,160,360,Male,Graduate,Yes,0,Y
+Loan114,0,6096,0,Small,No,218,360,Male,Not Graduate,Yes,0,N
+Loan115,0,2253,1,Small,No,110,360,Male,Not Graduate,Yes,2033,Y
+Loan116,0,2149,0,Medium,No,178,360,Female,Not Graduate,Yes,3237,N
+Loan117,0,2995,1,Large,No,60,360,Female,Graduate,No,0,Y
+Loan118,1,2600,1,Large,No,160,360,Female,Graduate,No,0,N
+Loan119,2,1600,1,Large,Yes,239,360,Male,Graduate,Yes,20000,N
+Loan120,0,1025,1,Small,No,112,360,Male,Graduate,Yes,2773,Y
+Loan121,0,3246,1,Medium,No,138,360,Male,Graduate,Yes,1417,Y
+Loan122,0,5829,1,Small,No,138,360,Male,Graduate,Yes,0,Y
+Loan123,0,2720,0,Large,No,80,,Female,Not Graduate,No,0,N
+Loan124,0,1820,1,Large,No,100,360,Male,Graduate,Yes,1719,Y
+Loan125,1,7250,0,Large,No,110,,Male,Graduate,Yes,1667,N
+Loan126,0,14880,1,Medium,No,96,360,Male,Graduate,Yes,0,Y
+Loan127,0,2666,1,Small,No,121,360,Male,Graduate,Yes,4300,Y
+Loan128,1,4606,1,Small,No,81,360,Female,Not Graduate,No,0,N
+Loan129,2,5935,1,Medium,No,133,360,Male,Graduate,Yes,0,Y
+Loan130,0,2920,1,Small,No,87,360,Male,Graduate,Yes,16.12000084,Y
+Loan131,0,2717,1,Large,No,60,180,Male,Not Graduate,No,0,Y
+Loan132,1,8624,1,Medium,Yes,150,360,Female,Graduate,No,0,Y
+Loan133,0,6500,0,Small,No,105,360,Male,Graduate,No,0,N
+Loan134,0,12876,1,Medium,,405,360,Male,Graduate,No,0,Y
+Loan135,0,2425,1,Medium,No,143,360,Male,Graduate,Yes,2340,Y
+Loan136,0,3750,1,Large,No,100,360,Male,Graduate,No,0,Y
+Loan137,,10047,1,Medium,No,,240,Female,Graduate,,0,Y
+Loan138,0,1926,1,Medium,No,50,360,Male,Graduate,No,1851,Y
+Loan139,0,2213,1,Large,No,,360,Male,Graduate,Yes,1125,Y
+Loan140,0,10416,0,Large,Yes,187,360,Male,Graduate,No,0,N
+Loan141,0,7142,1,Small,Yes,138,360,Female,Not Graduate,Yes,0,Y
+Loan142,0,3660,1,Medium,No,187,360,Male,Graduate,No,5064,Y
+Loan143,0,7901,1,Small,No,180,360,Male,Graduate,Yes,1833,Y
+Loan144,3+,4707,1,Medium,No,148,360,Male,Not Graduate,No,1993,Y
+Loan145,1,37719,1,Medium,No,152,360,Male,Graduate,No,0,Y
+Loan146,0,7333,,Small,No,175,300,Male,Graduate,Yes,8333,Y
+Loan147,1,3466,1,Small,Yes,130,360,Male,Graduate,Yes,1210,Y
+Loan148,2,4652,1,Small,No,110,360,Male,Not Graduate,Yes,0,Y
+Loan149,0,3539,1,Small,,55,360,Male,Graduate,Yes,1376,N
+Loan150,2,3340,0,Small,No,150,360,Male,Graduate,Yes,1710,N
+Loan151,1,2769,,Medium,Yes,190,360,Male,Not Graduate,No,1542,N
+Loan152,2,2309,0,Small,No,125,360,Male,Not Graduate,Yes,1255,N
+Loan153,2,1958,,Large,No,60,300,Male,Not Graduate,Yes,1456,Y
+Loan154,0,3948,0,Small,No,149,360,Male,Graduate,Yes,1733,N
+Loan155,0,2483,0,Small,No,90,180,Male,Graduate,Yes,2466,Y
+Loan156,0,7085,1,Medium,Yes,84,360,Male,Graduate,No,0,Y
+Loan157,2,3859,1,Medium,No,96,360,Male,Graduate,Yes,0,Y
+Loan158,0,4301,1,Large,No,118,360,Male,Graduate,Yes,0,Y
+Loan159,0,3708,1,Large,No,173,360,Male,Graduate,Yes,2569,N
+Loan160,2,4354,1,Small,No,136,360,Male,Graduate,No,0,Y
+Loan161,0,8334,1,Medium,No,160,360,Male,Graduate,Yes,0,N
+Loan162,0,2083,,Medium,Yes,160,360,,Graduate,Yes,4083,Y
+Loan163,3+,7740,1,Large,No,128,180,Male,Graduate,Yes,0,Y
+Loan164,0,3015,1,Small,No,153,360,Male,Graduate,Yes,2188,Y
+Loan165,1,5191,1,Medium,,132,360,Female,Not Graduate,No,0,Y
+Loan166,0,4166,0,Medium,No,98,360,Male,Graduate,No,0,N
+Loan167,0,6000,1,Small,No,140,360,Male,Graduate,No,0,Y
+Loan168,3+,2947,0,Large,No,70,180,Male,Not Graduate,Yes,1664,N
+Loan169,0,16692,1,Medium,No,110,360,,Graduate,Yes,0,Y
+Loan170,2,210,1,Medium,,98,360,Female,Not Graduate,Yes,2917,Y
+Loan171,0,4333,1,Large,No,110,360,Male,Graduate,Yes,2451,N
+Loan172,1,3450,1,Medium,Yes,162,360,Male,Graduate,Yes,2079,Y
+Loan173,1,2653,0,Small,No,113,180,Male,Not Graduate,Yes,1500,N
+Loan174,3+,4691,1,Medium,No,100,360,Male,Graduate,Yes,0,Y
+Loan175,0,2500,,Large,Yes,93,360,Female,Graduate,No,0,Y
+Loan176,2,5532,1,Small,No,162,360,Male,Graduate,No,4648,Y
+Loan177,2,16525,1,Small,Yes,150,360,Male,Graduate,Yes,1014,Y
+Loan178,2,6700,1,Medium,No,230,300,Male,Graduate,Yes,1750,Y
+Loan179,2,2873,0,Medium,No,132,360,,Graduate,Yes,1872,N
+Loan180,1,16667,1,Medium,Yes,86,360,Male,Graduate,Yes,2250,Y
+Loan181,2,2947,1,Large,No,,360,Male,Graduate,Yes,1603,N
+Loan182,0,4350,1,Small,No,154,360,Female,Not Graduate,No,0,Y
+Loan183,3+,3095,1,Small,No,113,360,Male,Not Graduate,Yes,0,Y
+Loan184,0,2083,1,Medium,No,128,360,Male,Graduate,Yes,3150,Y
+Loan185,0,10833,1,Medium,No,234,360,Male,Graduate,Yes,0,Y
+Loan186,2,8333,1,Medium,No,246,360,Male,Graduate,Yes,0,Y
+Loan187,1,1958,1,Small,No,131,360,Male,Not Graduate,Yes,2436,Y
+Loan188,2,3547,0,Small,No,80,360,Male,Graduate,No,0,N
+Loan189,1,18333,1,Large,No,500,360,Male,Graduate,Yes,0,N
+Loan190,2,4583,1,Medium,Yes,160,360,Male,Graduate,Yes,2083,Y
+Loan191,0,2435,1,Large,No,75,360,Male,Graduate,No,0,N
+Loan192,0,2699,,Medium,No,96,360,Male,Not Graduate,No,2785,Y
+Loan193,1,5333,,Large,No,186,360,Male,Not Graduate,Yes,1131,Y
+Loan194,0,3691,1,Small,No,110,360,Male,Not Graduate,No,0,Y
+Loan195,0,17263,1,Medium,Yes,225,360,Female,Not Graduate,No,0,Y
+Loan196,0,3597,0,Small,No,119,360,Male,Graduate,Yes,2157,N
+Loan197,1,3326,1,Medium,No,105,84,Female,Graduate,Yes,913,Y
+Loan198,0,2600,1,Small,No,107,360,Male,Not Graduate,Yes,1700,Y
+Loan199,0,4625,,Large,No,111,12,Male,Graduate,Yes,2857,Y
+Loan200,1,2895,1,Medium,Yes,95,360,Male,Graduate,Yes,0,Y
+Loan201,0,6283,0,Small,No,209,360,Male,Graduate,No,4416,N
+Loan202,0,645,1,Small,No,113,480,Female,Graduate,No,3683,Y
+Loan203,0,3159,1,Medium,No,100,360,Female,Graduate,No,0,Y
+Loan204,2,4865,1,Medium,No,208,360,Male,Graduate,Yes,5624,Y
+Loan205,1,4050,,Small,No,138,360,Male,Not Graduate,Yes,5302,N
+Loan206,0,3814,1,Medium,No,124,300,Male,Not Graduate,Yes,1483,Y
+Loan207,2,3510,1,Small,No,243,360,Male,Graduate,Yes,4416,Y
+Loan208,0,20833,,Large,No,480,360,Male,Graduate,Yes,6667,Y
+Loan209,0,3583,1,Large,No,96,360,,Graduate,No,0,N
+Loan210,0,2479,1,Large,Yes,188,360,Male,Graduate,Yes,3013,Y
+Loan211,1,13262,1,Large,No,40,360,Female,Graduate,No,0,Y
+Loan212,0,3598,1,Small,No,100,360,Male,Not Graduate,No,1287,N
+Loan213,1,6065,1,Medium,No,250,360,Male,Graduate,Yes,2004,Y
+Loan214,2,3283,1,Large,No,148,360,Male,Graduate,Yes,2035,Y
+Loan215,0,2130,1,Medium,No,70,180,Male,Graduate,Yes,6666,N
+Loan216,0,5815,1,Small,No,311,360,Male,Graduate,No,3666,N
+Loan217,3+,3466,1,Small,No,150,360,Male,Graduate,Yes,3428,Y
+Loan218,2,2031,1,Medium,No,113,480,Female,Graduate,Yes,1632,Y
+Loan219,,3074,0,Medium,No,123,360,Male,Not Graduate,Yes,1800,N
+Loan220,0,4683,1,Medium,No,185,360,Male,Graduate,No,1915,N
+Loan221,0,3400,1,Small,No,95,360,Female,Not Graduate,No,0,N
+Loan222,2,2192,1,Medium,No,45,360,Male,Not Graduate,Yes,1742,Y
+Loan223,0,2500,1,Medium,No,55,360,Male,Graduate,No,0,Y
+Loan224,3+,5677,1,Small,Yes,100,360,Male,Graduate,Yes,1424,Y
+Loan225,2,7948,1,Small,Yes,480,360,Male,Graduate,Yes,7166,Y
+Loan226,0,4680,1,Medium,No,,360,Male,Graduate,No,2087,N
+Loan227,2,17500,1,Small,Yes,400,360,Male,Graduate,Yes,0,Y
+Loan228,0,3775,1,Medium,No,110,360,Male,Graduate,Yes,0,Y
+Loan229,1,5285,0,Medium,No,161,360,Male,Not Graduate,Yes,1430,Y
+Loan230,1,2679,1,Medium,No,94,360,Male,Not Graduate,No,1302,Y
+Loan231,0,6783,1,Medium,No,130,360,Male,Not Graduate,No,0,Y
+Loan232,0,1025,,Small,No,216,360,Male,Graduate,Yes,5500,Y
+Loan233,3+,4281,1,Large,No,100,360,Male,Graduate,Yes,0,Y
+Loan234,2,3588,0,Small,No,110,360,Male,Graduate,No,0,N
+Loan235,1,11250,,Medium,No,196,360,Male,Graduate,No,0,N
+Loan236,0,18165,1,Large,Yes,125,360,Female,Not Graduate,No,0,Y
+Loan237,0,2550,1,Small,,126,360,Male,Not Graduate,No,2042,Y
+Loan238,0,6133,1,Large,No,324,360,Male,Graduate,Yes,3906,Y
+Loan239,2,3617,1,Medium,No,107,360,Male,Graduate,No,0,Y
+Loan240,0,2917,1,Small,No,66,360,Male,Not Graduate,Yes,536,N
+Loan241,3+,6417,1,Small,No,157,180,Male,Graduate,Yes,0,Y
+Loan242,1,4608,1,Medium,No,140,180,Female,Graduate,Yes,2845,Y
+Loan243,0,2138,0,Medium,No,99,360,Female,Graduate,No,0,N
+Loan244,1,3652,1,Medium,,95,360,Female,Graduate,No,0,Y
+Loan245,1,2239,1,Large,No,128,360,Male,Not Graduate,Yes,2524,Y
+Loan246,0,3017,,Medium,No,102,360,Female,Not Graduate,Yes,663,Y
+Loan247,0,2768,1,Small,No,155,360,Male,Graduate,Yes,1950,Y
+Loan248,0,3358,1,Medium,No,80,36,Male,Not Graduate,No,0,N
+Loan249,0,2526,1,Small,No,145,360,Male,Graduate,No,1783,Y
+Loan250,0,5000,0,Medium,No,103,360,Female,Graduate,No,0,N
+Loan251,0,2785,1,Small,No,110,360,Male,Graduate,Yes,2016,Y
+Loan252,2,6633,0,Small,Yes,,360,Male,Graduate,Yes,0,N
+Loan253,1,2492,1,Small,No,,360,Male,Not Graduate,Yes,2375,Y
+Loan254,1,3333,1,Large,No,158,360,Male,Graduate,Yes,3250,Y
+Loan255,0,2454,0,Large,No,181,360,Male,Not Graduate,Yes,2333,N
+Loan256,0,3593,0,Small,No,132,180,Male,Graduate,Yes,4266,N
+Loan257,1,5468,1,Medium,No,26,360,Male,Graduate,Yes,1032,Y
+Loan258,0,2667,,Large,No,84,360,Female,Graduate,No,1625,Y
+Loan259,3+,10139,1,Medium,Yes,260,360,Male,Graduate,Yes,0,Y
+Loan260,0,3887,1,Medium,No,162,360,Male,Graduate,Yes,2669,Y
+Loan261,0,4180,1,Medium,No,182,360,Female,Graduate,Yes,2306,Y
+Loan262,2,3675,1,Medium,No,108,360,Male,Not Graduate,Yes,242,Y
+Loan263,1,19484,1,Medium,Yes,600,360,Female,Graduate,Yes,0,Y
+Loan264,0,5923,1,Small,No,211,360,Male,Graduate,Yes,2054,Y
+Loan265,0,5800,1,Medium,Yes,132,360,Male,Not Graduate,No,0,Y
+Loan266,2,8799,0,Large,No,258,360,Male,Graduate,Yes,0,N
+Loan267,0,4467,,Small,No,120,360,Male,Not Graduate,Yes,0,Y
+Loan268,0,3333,1,Large,No,70,360,Male,Graduate,No,0,Y
+Loan269,3+,3400,0,Small,No,123,360,Male,Graduate,Yes,2500,N
+Loan270,0,2378,1,Large,No,9,360,Female,Graduate,No,0,N
+Loan271,0,3166,0,Large,No,104,360,Male,Graduate,Yes,2064,N
+Loan272,1,3417,1,Large,No,186,360,Male,Graduate,Yes,1750,Y
+Loan273,,5116,0,Large,No,165,360,Male,Graduate,Yes,1451,N
+Loan274,2,16666,1,Large,No,275,360,Male,Graduate,Yes,0,Y
+Loan275,2,6125,1,Medium,No,187,480,Male,Not Graduate,Yes,1625,N
+Loan276,3+,6406,1,Medium,No,150,360,Male,Graduate,Yes,0,N
+Loan277,2,3159,1,Large,No,108,84,Male,Graduate,Yes,461,Y
+Loan278,0,3087,0,Medium,No,136,360,,Graduate,Yes,2210,N
+Loan279,0,3229,1,Large,No,110,360,Male,Graduate,No,2739,Y
+Loan280,1,1782,1,Small,No,107,360,Male,Graduate,Yes,2232,Y
+Loan281,0,3182,1,Large,,161,360,Male,Graduate,No,2917,Y
+Loan282,2,6540,1,Medium,No,205,360,Male,Graduate,Yes,0,Y
+Loan283,0,1836,1,Large,No,90,360,Male,Graduate,No,33837,N
+Loan284,0,3166,1,Medium,No,36,360,Female,Graduate,Yes,0,Y
+Loan285,1,1880,,Small,No,61,360,Male,Graduate,Yes,0,N
+Loan286,1,2787,0,Small,No,146,360,Male,Graduate,Yes,1917,N
+Loan287,1,4283,1,Small,No,172,84,Male,Graduate,Yes,3000,N
+Loan288,0,2297,1,Large,No,104,360,Male,Graduate,Yes,1522,Y
+Loan289,0,2165,1,Medium,No,70,360,Female,Not Graduate,No,0,Y
+Loan290,0,4750,1,Medium,No,94,360,,Graduate,No,0,Y
+Loan291,2,2726,0,Medium,Yes,106,360,Male,Graduate,Yes,0,N
+Loan292,0,3000,1,Medium,No,56,180,Male,Graduate,Yes,3416,Y
+Loan293,2,6000,1,Medium,Yes,205,240,Male,Graduate,Yes,0,N
+Loan294,3+,9357,1,Medium,Yes,292,360,,Graduate,No,0,Y
+Loan295,0,3859,1,Small,No,142,180,Male,Graduate,Yes,3300,Y
+Loan296,0,16120,1,Large,Yes,260,360,Male,Graduate,Yes,0,Y
+Loan297,0,3833,1,Small,No,110,360,Male,Not Graduate,No,0,Y
+Loan298,2,6383,1,Small,Yes,187,360,Male,Not Graduate,Yes,1000,N
+Loan299,,2987,0,Medium,No,88,360,Male,Graduate,No,0,N
+Loan300,0,9963,1,Small,Yes,180,360,Male,Graduate,Yes,0,Y
+Loan301,2,5780,1,Large,No,192,360,Male,Graduate,Yes,0,Y
+Loan302,3+,416,,Large,,350,180,Female,Graduate,No,41667,N
+Loan303,0,2894,1,Small,,155,360,Male,Not Graduate,Yes,2792,Y
+Loan304,3+,5703,1,Large,No,128,360,Male,Graduate,Yes,0,Y
+Loan305,0,3676,1,Small,No,172,360,Male,Graduate,No,4301,Y
+Loan306,1,12000,1,Medium,No,496,360,Female,Graduate,Yes,0,Y
+Loan307,0,2400,1,Large,No,,180,Male,Not Graduate,Yes,3800,N
+Loan308,1,3400,1,Medium,No,173,360,Male,Graduate,Yes,2500,Y
+Loan309,2,3987,1,Small,No,157,360,Male,Not Graduate,Yes,1411,Y
+Loan310,0,3232,1,Small,No,108,360,Male,Graduate,Yes,1950,Y
+Loan311,0,2900,1,Small,No,71,360,Female,Graduate,No,0,Y
+Loan312,3+,4106,1,Small,No,40,180,Male,Graduate,Yes,0,Y
+Loan313,1,8072,1,Large,No,253,360,Male,Graduate,Yes,240,Y
+Loan314,2,7583,1,Large,No,187,360,Male,Graduate,Yes,0,Y
+Loan315,0,4583,0,Medium,Yes,133,360,Female,Graduate,No,0,N
+Loan316,0,5849,1,Large,No,,360,Male,Graduate,No,0,Y
+Loan317,1,4583,1,Small,No,128,360,Male,Graduate,Yes,1508,N
+Loan318,0,3000,1,Large,Yes,66,360,Male,Graduate,Yes,0,Y
+Loan319,0,2583,1,Large,No,120,360,Male,Not Graduate,Yes,2358,Y
+Loan320,0,6000,1,Large,No,141,360,Male,Graduate,No,0,Y
+Loan321,2,5417,1,Large,Yes,267,360,Male,Graduate,Yes,4196,Y
+Loan322,0,2333,1,Large,No,95,360,Male,Not Graduate,Yes,1516,Y
+Loan323,3+,3036,0,Medium,No,158,360,Male,Graduate,Yes,2504,N
+Loan324,2,4006,1,Large,No,168,360,Male,Graduate,Yes,1526,Y
+Loan325,1,12841,1,Medium,No,349,360,Male,Graduate,Yes,10968,N
+Loan326,2,3200,1,Large,No,70,360,Male,Graduate,Yes,700,Y
+Loan327,2,2500,1,Large,,109,360,Male,Graduate,Yes,1840,Y
+Loan328,2,3073,1,Large,No,200,360,Male,Graduate,Yes,8106,Y
+Loan329,0,1853,1,Small,No,114,360,Male,Graduate,No,2840,N
+Loan330,2,1299,1,Large,No,17,120,Male,Graduate,Yes,1086,Y
+Loan331,0,4950,1,Large,No,125,360,Male,Graduate,No,0,Y
+Loan332,1,3596,,Large,No,100,240,Male,Not Graduate,No,0,Y
+Loan333,0,3510,0,Large,No,76,360,Female,Graduate,No,0,N
+Loan334,0,4887,1,Small,No,133,360,Male,Not Graduate,Yes,0,N
+Loan335,0,2600,1,Large,,115,,Male,Graduate,Yes,3500,Y
+Loan336,0,7660,0,Large,No,104,360,Male,Not Graduate,Yes,0,N
+Loan337,1,5955,1,Large,No,315,360,Male,Graduate,Yes,5625,Y
+Loan338,0,2600,0,Medium,No,116,360,Male,Not Graduate,Yes,1911,N
+Loan339,2,3365,0,Small,No,112,360,,Not Graduate,Yes,1917,N
+Loan340,1,3717,,Medium,,151,360,Male,Graduate,Yes,2925,N
+Loan341,0,9560,1,Medium,Yes,191,360,Male,Graduate,Yes,0,Y
+Loan342,0,2799,1,Medium,No,122,360,Male,Graduate,Yes,2253,Y
+Loan343,2,4226,1,Large,No,110,360,Male,Not Graduate,Yes,1040,Y
+Loan344,0,1442,1,Large,No,35,360,Male,Not Graduate,No,0,N
+Loan345,2,3750,1,Medium,,120,360,Female,Graduate,No,2083,Y
+Loan346,1,4166,,Large,,201,360,Male,Graduate,Yes,3369,N
+Loan347,0,3167,1,Large,No,74,360,Male,Graduate,No,0,N
+Loan348,1,4692,1,Small,Yes,106,360,Male,Graduate,No,0,N
+Loan349,0,3500,1,Medium,No,114,360,Male,Graduate,Yes,1667,Y
+Loan350,3+,12500,1,Small,No,320,360,Male,Graduate,No,3000,N
+Loan351,0,2275,1,Large,No,,360,Male,Graduate,Yes,2067,Y
+Loan352,0,1828,0,Large,No,100,,Male,Graduate,Yes,1330,N
+Loan353,0,3667,1,Medium,No,144,360,Female,Graduate,Yes,1459,Y
+Loan354,0,4166,1,Large,No,184,360,Male,Graduate,No,7210,Y
+Loan355,0,3748,1,Medium,No,110,360,Male,Not Graduate,No,1668,Y
+Loan356,0,3600,1,Large,No,80,360,Male,Graduate,No,0,N
+Loan357,0,1800,1,Large,No,47,360,Male,Graduate,No,1213,Y
+Loan358,0,2400,,Large,No,75,360,Male,Graduate,Yes,0,Y
+Loan359,0,3941,1,Medium,No,134,360,Male,Graduate,Yes,2336,Y
+Loan360,0,4695,1,Large,Yes,96,,Male,Not Graduate,Yes,0,Y
+Loan361,0,3410,1,Large,No,88,,Female,Graduate,No,0,Y
+Loan362,1,5649,1,Large,No,44,360,Male,Graduate,Yes,0,Y
+Loan363,0,5821,1,Large,No,144,360,Male,Graduate,Yes,0,Y
+Loan364,0,2645,0,Large,No,120,360,Female,Graduate,Yes,3440,N
+Loan365,0,4000,1,Medium,No,144,360,Female,Graduate,No,2275,Y
+Loan366,0,1928,1,Medium,No,100,360,Female,Not Graduate,Yes,1644,Y
+Loan367,0,3086,1,Medium,No,120,360,Female,Graduate,No,0,Y
+Loan368,0,4230,1,Medium,No,112,360,Female,Graduate,No,0,N
+Loan369,2,4616,1,Large,No,134,360,Male,Graduate,Yes,0,N
+Loan370,1,11500,0,Large,Yes,286,360,Female,Graduate,Yes,0,N
+Loan371,2,2708,1,Medium,No,97,360,Male,Graduate,Yes,1167,Y
+Loan372,0,2132,1,Medium,No,96,360,Male,Graduate,Yes,1591,Y
+Loan373,0,3366,1,Small,No,135,360,Male,Graduate,Yes,2200,N
+Loan374,1,8080,1,Large,No,180,360,Male,Graduate,Yes,2250,Y
+Loan375,2,3357,1,Large,No,144,360,Male,Not Graduate,Yes,2859,Y
+Loan376,0,2500,1,Large,No,120,360,Male,Graduate,Yes,3796,Y
+Loan377,3+,3029,1,Large,No,99,360,Male,Graduate,Yes,0,Y
+Loan378,0,2609,0,Small,Yes,165,180,Male,Not Graduate,Yes,3449,N
+Loan379,1,4945,0,Small,No,,360,Male,Graduate,Yes,0,N
+Loan380,0,4166,0,Medium,No,116,360,Female,Graduate,No,0,N
+Loan381,0,5726,1,Medium,No,258,360,Male,Graduate,Yes,4595,N
+Loan382,0,3200,0,Large,No,126,180,Male,Not Graduate,No,2254,N
+Loan383,1,10750,1,Large,No,312,360,Male,Graduate,Yes,0,Y
+Loan384,3+,7100,1,Large,Yes,125,60,Male,Not Graduate,Yes,0,Y
+Loan385,0,4300,0,Medium,No,136,360,Female,Graduate,No,0,N
+Loan386,0,3208,1,Large,No,172,360,Male,Graduate,Yes,3066,Y
+Loan387,2,1875,1,Medium,Yes,97,360,Male,Not Graduate,Yes,1875,Y
+Loan388,0,3500,1,Medium,No,81,300,Male,Graduate,No,0,Y
+Loan389,3+,4755,0,Medium,No,95,,Male,Not Graduate,Yes,0,N
+Loan390,3+,5266,1,Medium,Yes,187,360,Male,Graduate,Yes,1774,Y
+Loan391,0,3750,1,Large,No,113,480,Male,Graduate,No,0,N
+Loan392,0,3750,1,Large,No,176,360,Male,Graduate,No,4750,N
+Loan393,1,1000,1,Large,Yes,110,360,Male,Graduate,Yes,3022,N
+Loan394,3+,3167,0,Medium,No,180,300,Male,Graduate,Yes,4000,N
+Loan395,3+,3333,,Medium,Yes,130,360,Male,Not Graduate,Yes,2166,Y
+Loan396,0,3846,1,Medium,No,111,360,Female,Graduate,No,0,Y
+Loan397,1,2395,1,Medium,Yes,,360,Male,Graduate,Yes,0,Y
+Loan398,2,1378,1,Large,No,167,360,Female,Graduate,Yes,1881,N
+Loan399,0,6000,,Medium,No,265,360,Male,Graduate,Yes,2250,N
+Loan400,1,3988,1,Large,No,50,240,Male,Graduate,Yes,0,Y
+Loan401,0,2366,1,Medium,No,136,360,Male,Graduate,No,2531,Y
+Loan402,2,3333,,Medium,No,99,360,Male,Not Graduate,Yes,2000,Y
+Loan403,0,2500,1,Medium,No,104,360,Male,Graduate,Yes,2118,Y
+Loan404,0,8566,1,Large,No,210,360,Male,Graduate,No,0,Y
+Loan405,0,5695,1,Medium,No,175,360,Male,Graduate,Yes,4167,Y
+Loan406,0,2958,1,Medium,No,131,360,Male,Graduate,Yes,2900,Y
+Loan407,2,6250,1,Medium,No,188,180,Male,Graduate,Yes,5654,Y
+Loan408,2,3273,1,Large,No,81,360,Male,Not Graduate,Yes,1820,Y
+Loan409,0,4133,1,Medium,No,122,360,Male,Graduate,No,0,Y
+Loan410,0,3620,1,Medium,No,25,120,Male,Not Graduate,No,0,Y
+Loan411,0,6782,,Large,,,360,Male,Graduate,No,0,N
+Loan412,0,2484,1,Medium,No,137,360,Female,Graduate,Yes,2302,Y
+Loan413,0,1977,1,Medium,No,50,360,Male,Graduate,Yes,997,Y
+Loan414,0,4188,1,Medium,No,115,180,Male,Not Graduate,Yes,0,Y
+Loan415,0,1759,1,Medium,No,131,360,Male,Graduate,Yes,3541,Y
+Loan416,2,4288,1,Large,No,133,180,Male,Not Graduate,Yes,3263,Y
+Loan417,0,4843,1,Medium,No,151,360,Male,Graduate,No,3806,Y
+Loan418,,13650,1,Large,No,,360,Male,Graduate,Yes,0,Y
+Loan419,0,4652,1,Medium,No,,360,Male,Graduate,Yes,3583,Y
+Loan420,,3816,1,Large,No,160,360,Male,Graduate,,754,Y
+Loan421,1,3052,1,Large,No,100,360,Male,Graduate,Yes,1030,Y
+Loan422,2,11417,1,Large,No,225,360,Male,Graduate,Yes,1126,Y
+Loan423,0,7333,1,Small,,120,360,Male,Not Graduate,No,0,N
+Loan424,2,3800,0,Large,No,216,360,Male,Graduate,Yes,3600,N
+Loan425,3+,2071,1,Medium,No,94,480,Male,Not Graduate,Yes,754,Y
+Loan426,0,5316,1,Large,No,136,360,Male,Graduate,No,0,Y
+Loan427,0,2929,1,Medium,,139,360,Female,Graduate,Yes,2333,Y
+Loan428,0,3572,0,Small,No,152,,Male,Not Graduate,Yes,4114,N
+Loan429,1,7451,1,Medium,Yes,,360,Female,Graduate,No,0,Y
+Loan430,0,5050,1,Medium,,118,360,Male,Graduate,No,0,Y
+Loan431,1,14583,1,Small,No,185,180,Male,Graduate,Yes,0,Y
+Loan432,0,3167,1,Medium,No,154,360,Female,Graduate,Yes,2283,Y
+Loan433,1,2214,,Large,No,85,360,Male,Graduate,Yes,1398,Y
+Loan434,0,5568,1,Small,No,175,360,Male,Graduate,Yes,2142,N
+Loan435,0,10408,1,Large,No,259,360,Female,Graduate,No,0,Y
+Loan436,,5667,1,Small,No,180,360,Male,Graduate,Yes,2667,Y
+Loan437,0,4166,1,Medium,No,44,360,Female,Graduate,No,0,Y
+Loan438,0,2137,0,Medium,No,137,360,Female,Graduate,No,8980,Y
+Loan439,2,2957,1,Medium,No,81,360,Male,Graduate,Yes,0,Y
+Loan440,0,4300,1,Small,No,194,360,Male,Not Graduate,Yes,2014,Y
+Loan441,0,3692,,Small,No,93,360,Female,Graduate,No,0,Y
+Loan442,3+,23803,1,Small,No,370,360,,Graduate,Yes,0,Y
+Loan443,0,3865,1,Small,No,,360,Male,Graduate,No,1640,Y
+Loan444,1,10513,0,Large,Yes,160,180,Male,Graduate,Yes,3850,N
+Loan445,0,6080,,Small,No,182,360,Male,Graduate,Yes,2569,N
+Loan446,0,20166,,Large,Yes,650,480,Male,Graduate,No,0,Y
+Loan447,0,2014,1,Large,No,74,360,Male,Graduate,No,1929,Y
+Loan448,0,2718,1,Medium,No,70,360,Male,Graduate,No,0,Y
+Loan449,0,3459,1,Medium,Yes,25,120,Male,Graduate,Yes,0,Y
+Loan450,0,4895,1,Medium,No,102,360,Male,Graduate,No,0,Y
+Loan451,3+,4000,1,Medium,No,290,360,Male,Graduate,Yes,7750,N
+Loan452,0,4583,1,Small,No,84,360,Female,Graduate,Yes,0,N
+Loan453,2,3316,1,Large,Yes,88,360,Male,Graduate,Yes,3500,Y
+Loan454,0,14999,0,Medium,No,242,360,Male,Graduate,No,0,N
+Loan455,2,4200,1,Small,No,129,360,Male,Not Graduate,Yes,1430,N
+Loan456,2,5042,1,Small,No,185,360,Male,Graduate,Yes,2083,N
+Loan457,0,5417,1,Large,No,168,360,Male,Graduate,No,0,Y
+Loan458,0,6950,1,Medium,Yes,175,180,Male,Graduate,No,0,Y
+Loan459,0,2698,1,Medium,No,122,360,Male,Graduate,Yes,2034,Y
+Loan460,2,11757,1,Large,No,187,180,Male,Graduate,Yes,0,Y
+Loan461,0,2330,1,Medium,No,100,360,Female,Graduate,Yes,4486,Y
+Loan462,2,14866,1,Large,No,70,360,Female,Graduate,Yes,0,Y
+Loan463,1,1538,1,Large,No,30,360,Male,Graduate,Yes,1425,Y
+Loan464,0,10000,1,Small,No,225,360,Female,Graduate,No,1666,N
+Loan465,0,4860,1,Medium,No,125,360,Male,Graduate,Yes,830,Y
+Loan466,0,6277,0,Small,No,118,360,Male,Graduate,No,0,N
+Loan467,0,2577,1,Small,Yes,152,360,Male,Graduate,Yes,3750,Y
+Loan468,0,9166,1,Large,No,244,360,Male,Graduate,No,0,N
+Loan469,2,2281,1,Small,No,113,360,Male,Not Graduate,Yes,0,N
+Loan470,0,3254,1,Large,No,50,360,Male,Graduate,No,0,Y
+Loan471,3+,39999,0,Medium,No,600,180,Male,Graduate,Yes,0,Y
+Loan472,1,6000,,Small,No,160,360,Male,Graduate,Yes,0,Y
+Loan473,1,9538,1,Large,No,187,360,Male,Graduate,Yes,0,Y
+Loan474,0,2980,1,Small,,120,360,Male,Graduate,No,2083,Y
+Loan475,0,4583,1,Medium,No,255,360,Male,Graduate,Yes,5625,Y
+Loan476,0,1863,1,Medium,No,98,360,Male,Not Graduate,Yes,1041,Y
+Loan477,0,7933,1,Large,No,275,360,Male,Graduate,Yes,0,N
+Loan478,1,3089,0,Medium,No,121,360,Male,Graduate,Yes,1280,N
+Loan479,2,4167,1,Small,No,158,360,Male,Graduate,Yes,1447,Y
+Loan480,0,9323,1,Large,No,75,180,Male,Graduate,Yes,0,Y
+Loan481,0,3707,1,Small,No,182,,Male,Graduate,Yes,3166,Y
+Loan482,0,4583,1,Small,No,112,360,Female,Graduate,Yes,0,N
+Loan483,0,2439,1,Small,No,129,360,Male,Graduate,Yes,3333,Y
+Loan484,0,2237,0,Medium,No,63,480,Male,Graduate,No,0,N
+Loan485,2,8000,1,Medium,No,200,360,Male,Graduate,Yes,0,Y
+Loan486,0,1820,1,Small,,95,360,Male,Not Graduate,Yes,1769,Y
+Loan487,3+,51763,1,Large,No,700,300,,Graduate,Yes,0,Y
+Loan488,3+,3522,1,Small,No,81,180,Male,Not Graduate,Yes,0,N
+Loan489,0,5708,1,Medium,No,187,360,Male,Graduate,Yes,5625,Y
+Loan490,0,4344,1,Medium,Yes,87,360,Male,Not Graduate,Yes,736,N
+Loan491,0,3497,1,Small,No,116,360,Male,Graduate,Yes,1964,Y
+Loan492,2,2045,1,Small,No,101,360,Male,Graduate,Yes,1619,Y
+Loan493,3+,5516,0,Medium,No,495,360,Male,Graduate,Yes,11300,N
+Loan494,1,3750,1,Medium,No,116,360,Male,Graduate,Yes,0,Y
+Loan495,0,2333,0,Large,No,102,480,Male,Not Graduate,No,1451,N
+Loan496,1,6400,0,Large,No,180,360,Male,Graduate,Yes,7250,N
+Loan497,0,1916,,Small,No,67,360,Male,Graduate,No,5063,N
+Loan498,0,4600,1,Medium,No,73,180,Male,Graduate,Yes,0,Y
+Loan499,1,33846,1,Medium,No,260,360,Male,Graduate,Yes,0,N
+Loan500,0,3625,1,Medium,No,108,360,Female,Graduate,Yes,0,Y
+Loan501,0,39147,1,Medium,Yes,120,360,Male,Graduate,Yes,4750,Y
+Loan502,1,2178,0,Small,Yes,66,300,Male,Graduate,Yes,0,N
+Loan503,0,2383,,Small,No,58,360,Male,Graduate,Yes,2138,Y
+Loan504,0,674,1,Small,Yes,168,360,,Graduate,Yes,5296,Y
+Loan505,0,9328,1,Small,No,188,180,Male,Graduate,Yes,0,Y
+Loan506,0,4885,1,Small,No,48,360,Male,Not Graduate,No,0,Y
+Loan507,0,12000,1,Medium,No,164,360,Male,Graduate,No,0,N
+Loan508,0,6033,1,Large,No,160,360,Male,Not Graduate,Yes,0,N
+Loan509,0,3858,1,Medium,No,76,360,Male,Graduate,No,0,Y
+Loan510,0,4191,1,Small,No,120,360,Male,Graduate,No,0,Y
+Loan511,1,3125,1,Medium,No,170,360,Male,Graduate,Yes,2583,N
+Loan512,0,8333,1,Small,No,187,360,Male,Graduate,No,3750,Y
+Loan513,0,1907,1,Large,No,120,,Female,Not Graduate,No,2365,Y
+Loan514,0,3416,,Medium,No,113,360,Female,Graduate,Yes,2816,Y
+Loan515,0,11000,1,Large,Yes,83,360,Male,Graduate,No,0,N
+Loan516,1,2600,1,Medium,No,90,360,Male,Not Graduate,Yes,2500,Y
+Loan517,2,4923,0,Medium,No,166,360,Male,Graduate,No,0,Y
+Loan518,3+,3992,1,Large,No,,180,Male,Not Graduate,Yes,0,N
+Loan519,1,3500,1,Large,No,135,360,Male,Not Graduate,Yes,1083,Y
+Loan520,2,3917,1,Medium,No,124,360,Male,Not Graduate,Yes,0,Y
+Loan521,0,4408,1,Medium,No,120,360,Female,Not Graduate,No,0,Y
+Loan522,0,3244,1,Large,No,80,360,Female,Graduate,No,0,Y
+Loan523,0,3975,1,Small,No,55,360,Male,Not Graduate,No,2531,Y
+Loan524,0,2479,1,Large,No,59,360,Male,Graduate,No,0,Y
+Loan525,0,3418,1,Medium,No,127,360,Male,Graduate,No,0,N
+Loan526,0,10000,1,Medium,No,214,360,Female,Graduate,No,0,N
+Loan527,3+,3430,0,Medium,No,128,360,Male,Graduate,Yes,1250,N
+Loan528,1,7787,1,Large,Yes,240,360,Male,Graduate,Yes,0,Y
+Loan529,3+,5703,1,Small,Yes,130,360,Male,Not Graduate,Yes,0,Y
+Loan530,0,3173,1,Large,No,137,360,Male,Graduate,Yes,3021,Y
+Loan531,3+,3850,1,Medium,No,100,360,Male,Not Graduate,Yes,983,Y
+Loan532,0,150,1,Small,No,135,360,Male,Graduate,Yes,1800,N
+Loan533,0,3727,1,Medium,No,131,360,Male,Graduate,Yes,1775,Y
+Loan534,2,5000,0,Medium,,72,360,Male,Graduate,Yes,0,N
+Loan535,2,4283,,Medium,No,127,360,Female,Graduate,Yes,2383,Y
+Loan536,0,2221,0,Large,No,60,360,Male,Graduate,Yes,0,N
+Loan537,2,4009,1,Medium,No,116,360,Male,Graduate,Yes,1717,Y
+Loan538,0,2971,1,Medium,No,144,360,Male,Graduate,No,2791,Y
+Loan539,0,7578,1,Medium,No,175,,Male,Graduate,Yes,1010,Y
+Loan540,0,6250,1,Medium,No,128,360,Male,Graduate,Yes,0,Y
+Loan541,0,3250,1,Small,No,170,360,Male,Graduate,Yes,0,N
+Loan542,,4735,1,Large,Yes,138,360,Male,Not Graduate,Yes,0,N
+Loan543,2,6250,1,Medium,No,210,360,Male,Graduate,Yes,1695,Y
+Loan544,,4758,1,Medium,No,158,480,Male,Graduate,,0,Y
+Loan545,0,6400,1,Small,Yes,200,360,Male,Graduate,No,0,Y
+Loan546,1,2491,1,Medium,No,104,360,Male,Graduate,Yes,2054,Y
+Loan547,0,3716,1,Small,,42,180,Male,Graduate,Yes,0,Y
+Loan548,0,3189,1,Small,No,120,,Male,Not Graduate,No,2598,Y
+Loan549,0,8333,1,Medium,No,280,360,Female,Graduate,No,0,Y
+Loan550,1,3155,1,Medium,No,140,360,Male,Graduate,Yes,1779,Y
+Loan551,1,5500,1,Small,No,170,360,Male,Graduate,Yes,1260,Y
+Loan552,0,5746,,Large,,255,360,Male,Graduate,Yes,0,N
+Loan553,0,3463,,Large,Yes,122,360,Female,Graduate,No,0,Y
+Loan554,1,3812,1,Small,No,112,360,Female,Graduate,No,0,Y
+Loan555,1,3315,1,Medium,No,96,360,Male,Graduate,Yes,0,Y
+Loan556,2,5819,1,Small,No,120,360,Male,Graduate,Yes,5000,Y
+Loan557,1,2510,1,Large,No,140,180,Male,Not Graduate,Yes,1983,N
+Loan558,0,2965,1,Large,No,155,60,Male,Graduate,No,5701,Y
+Loan559,2,6250,1,Small,Yes,108,360,Male,Graduate,Yes,1300,Y
+Loan560,0,3406,1,Medium,No,123,360,Male,Not Graduate,Yes,4417,Y
+Loan561,0,6050,1,Large,Yes,120,180,Male,Graduate,No,4333,N
+Loan562,2,9703,1,Large,No,112,360,Male,Graduate,Yes,0,Y
+Loan563,1,6608,1,Large,No,137,180,Male,Not Graduate,Yes,0,Y
+Loan564,1,2882,1,Medium,No,123,480,Male,Graduate,Yes,1843,Y
+Loan565,0,1809,1,Large,No,90,360,Male,Graduate,Yes,1868,Y
+Loan566,0,1668,0,Medium,No,201,360,Male,Not Graduate,Yes,3890,N
+Loan567,2,3427,1,Large,No,138,360,Female,Graduate,No,0,N
+Loan568,0,2583,1,Small,Yes,104,360,Male,Not Graduate,No,2167,Y
+Loan569,1,2661,1,Medium,No,279,180,Male,Not Graduate,Yes,7101,Y
+Loan570,0,16250,0,Large,Yes,192,360,Male,Graduate,No,0,N
+Loan571,3+,3083,1,Small,No,255,360,Female,Graduate,No,0,Y
+Loan572,0,6045,0,Small,No,115,360,Male,Not Graduate,No,0,N
+Loan573,3+,5250,1,Large,No,94,360,Male,Graduate,Yes,0,N
+Loan574,0,14683,1,Small,No,304,360,Male,Graduate,Yes,2100,N
+Loan575,3+,4931,,Medium,No,128,360,Male,Not Graduate,Yes,0,N
+Loan576,1,6083,,Large,No,330,360,Male,Graduate,Yes,4250,Y
+Loan577,0,2060,1,Medium,No,134,360,Male,Graduate,No,2209,Y
+Loan578,1,3481,1,Medium,No,155,36,Female,Graduate,No,0,N
+Loan579,0,7200,1,Small,No,120,360,Female,Graduate,No,0,Y
+Loan580,0,5166,1,Medium,Yes,128,360,Male,Graduate,No,0,Y
+Loan581,0,4095,1,Small,No,151,360,Male,Graduate,No,3447,Y
+Loan582,2,4708,1,Medium,No,150,360,Male,Graduate,Yes,1387,Y
+Loan583,3+,4333,0,Large,No,160,360,Male,Graduate,Yes,1811,Y
+Loan584,0,3418,1,Small,,135,360,Female,Graduate,No,0,N
+Loan585,1,2876,1,Large,No,90,360,Female,Graduate,No,1560,Y
+Loan586,0,3237,1,Large,No,30,360,Female,Graduate,No,0,Y
+Loan587,0,11146,1,Large,No,136,360,Male,Graduate,Yes,0,Y
+Loan588,0,2833,1,Small,No,126,360,Male,Graduate,No,1857,Y
+Loan589,0,2620,1,Medium,No,150,360,Male,Graduate,Yes,2223,Y
+Loan590,2,3900,1,Medium,No,90,360,Male,Graduate,Yes,0,Y
+Loan591,1,2750,1,Medium,No,115,360,Male,Graduate,Yes,1842,Y
+Loan592,0,3993,1,Medium,No,207,360,Male,Graduate,Yes,3274,Y
+Loan593,0,3103,1,Large,No,80,360,Male,Graduate,Yes,1300,Y
+Loan594,0,14583,1,Medium,No,436,360,Male,Graduate,Yes,0,Y
+Loan595,0,4100,,Small,No,124,360,Female,Not Graduate,Yes,0,Y
+Loan596,1,4053,0,Large,Yes,158,360,Male,Not Graduate,No,2426,N
+Loan597,0,3927,1,Medium,No,112,360,Male,Graduate,Yes,800,Y
+Loan598,2,2301,1,Large,No,78,180,Male,Graduate,Yes,985.7999878,Y
+Loan599,0,1811,1,Large,No,54,360,Female,Graduate,No,1666,Y
+Loan600,0,20667,1,Small,No,,360,Male,Graduate,Yes,0,N
+Loan601,0,3158,1,Small,No,89,360,Male,Graduate,No,3053,Y
+Loan602,0,2600,1,Medium,Yes,99,300,Female,Graduate,No,1717,N
+Loan603,0,3704,1,Small,No,120,360,Male,Graduate,Yes,2000,Y
+Loan604,0,4124,1,Medium,No,115,360,Female,Graduate,No,0,Y
+Loan605,0,9508,1,Small,No,187,360,Male,Graduate,No,0,Y
+Loan606,0,3075,1,Small,No,139,360,Male,Graduate,Yes,2416,Y
+Loan607,2,4400,0,Medium,No,127,360,Male,Graduate,Yes,0,N
+Loan608,2,3153,1,Large,No,134,360,Male,Graduate,Yes,1560,Y
+Loan609,,5417,0,Large,No,143,480,Female,Graduate,No,0,N
+Loan610,0,2383,1,Medium,No,172,360,Male,Graduate,Yes,3334,Y
+Loan611,3+,4416,1,Large,,110,360,Male,Graduate,Yes,1250,Y
+Loan612,1,6875,1,Medium,No,200,360,Male,Graduate,Yes,0,Y
+Loan613,1,4666,1,Large,No,135,360,Female,Graduate,Yes,0,Y
+Loan614,0,5000,1,Small,No,151,480,Female,Graduate,No,2541,N
+Loan615,0,4625,,Large,No,111,12,Male,Graduate,Yes,2857,Y
+Loan616,1,2895,1,Medium,Yes,95,360,Male,Graduate,Yes,0,Y
+Loan617,0,6283,0,Small,No,209,360,Male,Graduate,No,4416,N
+Loan618,0,645,1,Small,No,113,480,Female,Graduate,No,3683,Y
+Loan619,0,3159,1,Medium,No,100,360,Female,Graduate,No,0,Y
+Loan620,2,4865,1,Medium,No,208,360,Male,Graduate,Yes,5624,Y
+Loan621,1,4050,,Small,No,138,360,Male,Not Graduate,Yes,5302,N
+Loan622,0,3814,1,Medium,No,124,300,Male,Not Graduate,Yes,1483,Y
+Loan623,2,3510,1,Small,No,243,360,Male,Graduate,Yes,4416,Y
+Loan624,0,20833,,Large,No,480,360,Male,Graduate,Yes,6667,Y
+Loan625,0,3583,1,Large,No,96,360,,Graduate,No,0,N
+Loan626,0,2479,1,Large,Yes,188,360,Male,Graduate,Yes,3013,Y
+Loan627,1,13262,1,Large,No,40,360,Female,Graduate,No,0,Y
+Loan628,0,3598,1,Small,No,100,360,Male,Not Graduate,No,1287,N
+Loan629,1,6065,1,Medium,No,250,360,Male,Graduate,Yes,2004,Y
+Loan630,2,3283,1,Large,No,148,360,Male,Graduate,Yes,2035,Y
+Loan631,0,2130,1,Medium,No,70,180,Male,Graduate,Yes,6666,N
+Loan632,0,5815,1,Small,No,311,360,Male,Graduate,No,3666,N
+Loan633,3+,3466,1,Small,No,150,360,Male,Graduate,Yes,3428,Y
+Loan634,2,2031,1,Medium,No,113,480,Female,Graduate,Yes,1632,Y
+Loan635,,3074,0,Medium,No,123,360,Male,Not Graduate,Yes,1800,N
+Loan636,0,4683,1,Medium,No,185,360,Male,Graduate,No,1915,N
+Loan637,0,3400,1,Small,No,95,360,Female,Not Graduate,No,0,N
+Loan638,2,2192,1,Medium,No,45,360,Male,Not Graduate,Yes,1742,Y
+Loan639,0,2500,1,Medium,No,55,360,Male,Graduate,No,0,Y
+Loan640,3+,5677,1,Small,Yes,100,360,Male,Graduate,Yes,1424,Y
+Loan641,2,7948,1,Small,Yes,480,360,Male,Graduate,Yes,7166,Y
+Loan642,0,4680,1,Medium,No,,360,Male,Graduate,No,2087,N
+Loan643,2,17500,1,Small,Yes,400,360,Male,Graduate,Yes,0,Y
+Loan644,0,3775,1,Medium,No,110,360,Male,Graduate,Yes,0,Y
+Loan645,1,5285,0,Medium,No,161,360,Male,Not Graduate,Yes,1430,Y
+Loan646,1,2679,1,Medium,No,94,360,Male,Not Graduate,No,1302,Y
+Loan647,0,6783,1,Medium,No,130,360,Male,Not Graduate,No,0,Y
+Loan648,0,1025,,Small,No,216,360,Male,Graduate,Yes,5500,Y
+Loan649,3+,4281,1,Large,No,100,360,Male,Graduate,Yes,0,Y
+Loan650,2,3588,0,Small,No,110,360,Male,Graduate,No,0,N
+Loan651,1,11250,,Medium,No,196,360,Male,Graduate,No,0,N
+Loan652,0,18165,1,Large,Yes,125,360,Female,Not Graduate,No,0,Y
+Loan653,0,2550,1,Small,,126,360,Male,Not Graduate,No,2042,Y
+Loan654,0,6133,1,Large,No,324,360,Male,Graduate,Yes,3906,Y
+Loan655,2,3617,1,Medium,No,107,360,Male,Graduate,No,0,Y
+Loan656,0,2917,1,Small,No,66,360,Male,Not Graduate,Yes,536,N
+Loan657,3+,6417,1,Small,No,157,180,Male,Graduate,Yes,0,Y
+Loan658,1,4608,1,Medium,No,140,180,Female,Graduate,Yes,2845,Y
+Loan659,0,2138,0,Medium,No,99,360,Female,Graduate,No,0,N
+Loan660,1,3652,1,Medium,,95,360,Female,Graduate,No,0,Y
+Loan661,1,2239,1,Large,No,128,360,Male,Not Graduate,Yes,2524,Y
+Loan662,0,3017,,Medium,No,102,360,Female,Not Graduate,Yes,663,Y
+Loan663,0,2768,1,Small,No,155,360,Male,Graduate,Yes,1950,Y
+Loan664,0,3358,1,Medium,No,80,36,Male,Not Graduate,No,0,N
+Loan665,0,2526,1,Small,No,145,360,Male,Graduate,No,1783,Y
+Loan666,0,5000,0,Medium,No,103,360,Female,Graduate,No,0,N
+Loan667,0,2785,1,Small,No,110,360,Male,Graduate,Yes,2016,Y
+Loan668,2,6633,0,Small,Yes,,360,Male,Graduate,Yes,0,N
+Loan669,1,2492,1,Small,No,,360,Male,Not Graduate,Yes,2375,Y
+Loan670,1,3333,1,Large,No,158,360,Male,Graduate,Yes,3250,Y
+Loan671,0,2454,0,Large,No,181,360,Male,Not Graduate,Yes,2333,N
+Loan672,0,3593,0,Small,No,132,180,Male,Graduate,Yes,4266,N
+Loan673,1,5468,1,Medium,No,26,360,Male,Graduate,Yes,1032,Y
+Loan674,0,2667,,Large,No,84,360,Female,Graduate,No,1625,Y
+Loan675,3+,10139,1,Medium,Yes,260,360,Male,Graduate,Yes,0,Y
+Loan676,0,3887,1,Medium,No,162,360,Male,Graduate,Yes,2669,Y
+Loan677,0,4180,1,Medium,No,182,360,Female,Graduate,Yes,2306,Y
+Loan678,2,3675,1,Medium,No,108,360,Male,Not Graduate,Yes,242,Y
+Loan679,1,19484,1,Medium,Yes,600,360,Female,Graduate,Yes,0,Y
+Loan680,0,5923,1,Small,No,211,360,Male,Graduate,Yes,2054,Y
+Loan681,0,5800,1,Medium,Yes,132,360,Male,Not Graduate,No,0,Y
+Loan682,2,8799,0,Large,No,258,360,Male,Graduate,Yes,0,N
+Loan683,0,4467,,Small,No,120,360,Male,Not Graduate,Yes,0,Y
+Loan684,0,3333,1,Large,No,70,360,Male,Graduate,No,0,Y
+Loan685,3+,3400,0,Small,No,123,360,Male,Graduate,Yes,2500,N
+Loan686,0,2378,1,Large,No,9,360,Female,Graduate,No,0,N
+Loan687,0,3166,0,Large,No,104,360,Male,Graduate,Yes,2064,N
+Loan688,1,3417,1,Large,No,186,360,Male,Graduate,Yes,1750,Y
+Loan689,,5116,0,Large,No,165,360,Male,Graduate,Yes,1451,N
+Loan690,2,16666,1,Large,No,275,360,Male,Graduate,Yes,0,Y
+Loan691,2,6125,1,Medium,No,187,480,Male,Not Graduate,Yes,1625,N
+Loan692,3+,6406,1,Medium,No,150,360,Male,Graduate,Yes,0,N
+Loan693,2,3159,1,Large,No,108,84,Male,Graduate,Yes,461,Y
+Loan694,0,3087,0,Medium,No,136,360,,Graduate,Yes,2210,N
+Loan695,0,3229,1,Large,No,110,360,Male,Graduate,No,2739,Y
+Loan696,1,1782,1,Small,No,107,360,Male,Graduate,Yes,2232,Y
+Loan697,0,3182,1,Large,,161,360,Male,Graduate,No,2917,Y
+Loan698,2,6540,1,Medium,No,205,360,Male,Graduate,Yes,0,Y
+Loan699,0,1836,1,Large,No,90,360,Male,Graduate,No,33837,N
+Loan700,0,3166,1,Medium,No,36,360,Female,Graduate,Yes,0,Y
+Loan701,1,1880,,Small,No,61,360,Male,Graduate,Yes,0,N
+Loan702,1,2787,0,Small,No,146,360,Male,Graduate,Yes,1917,N
+Loan703,1,4283,1,Small,No,172,84,Male,Graduate,Yes,3000,N
+Loan704,0,2297,1,Large,No,104,360,Male,Graduate,Yes,1522,Y
+Loan705,0,2165,1,Medium,No,70,360,Female,Not Graduate,No,0,Y
+Loan706,0,4750,1,Medium,No,94,360,,Graduate,No,0,Y
+Loan707,2,2726,0,Medium,Yes,106,360,Male,Graduate,Yes,0,N
+Loan708,0,3000,1,Medium,No,56,180,Male,Graduate,Yes,3416,Y
+Loan709,2,6000,1,Medium,Yes,205,240,Male,Graduate,Yes,0,N
+Loan710,3+,9357,1,Medium,Yes,292,360,,Graduate,No,0,Y
+Loan711,0,3859,1,Small,No,142,180,Male,Graduate,Yes,3300,Y
+Loan712,0,16120,1,Large,Yes,260,360,Male,Graduate,Yes,0,Y
+Loan713,0,3833,1,Small,No,110,360,Male,Not Graduate,No,0,Y
+Loan714,2,6383,1,Small,Yes,187,360,Male,Not Graduate,Yes,1000,N
+Loan715,,2987,0,Medium,No,88,360,Male,Graduate,No,0,N
+Loan716,0,9963,1,Small,Yes,180,360,Male,Graduate,Yes,0,Y
+Loan717,2,5780,1,Large,No,192,360,Male,Graduate,Yes,0,Y
+Loan718,3+,416,,Large,,350,180,Female,Graduate,No,41667,N
+Loan719,0,2894,1,Small,,155,360,Male,Not Graduate,Yes,2792,Y
+Loan720,3+,5703,1,Large,No,128,360,Male,Graduate,Yes,0,Y
+Loan721,0,3676,1,Small,No,172,360,Male,Graduate,No,4301,Y
+Loan722,1,12000,1,Medium,No,496,360,Female,Graduate,Yes,0,Y
+Loan723,0,2400,1,Large,No,,180,Male,Not Graduate,Yes,3800,N
+Loan724,1,3400,1,Medium,No,173,360,Male,Graduate,Yes,2500,Y
+Loan725,2,3987,1,Small,No,157,360,Male,Not Graduate,Yes,1411,Y
+Loan726,0,3232,1,Small,No,108,360,Male,Graduate,Yes,1950,Y
+Loan727,0,2900,1,Small,No,71,360,Female,Graduate,No,0,Y
+Loan728,3+,4106,1,Small,No,40,180,Male,Graduate,Yes,0,Y
+Loan729,1,8072,1,Large,No,253,360,Male,Graduate,Yes,240,Y
+Loan730,2,7583,1,Large,No,187,360,Male,Graduate,Yes,0,Y
+Loan731,0,4583,0,Medium,Yes,133,360,Female,Graduate,No,0,N
+Loan732,0,5849,1,Large,No,,360,Male,Graduate,No,0,Y
+Loan733,1,4583,1,Small,No,128,360,Male,Graduate,Yes,1508,N
+Loan734,0,3000,1,Large,Yes,66,360,Male,Graduate,Yes,0,Y
+Loan735,0,2583,1,Large,No,120,360,Male,Not Graduate,Yes,2358,Y
+Loan736,0,6000,1,Large,No,141,360,Male,Graduate,No,0,Y
+Loan737,2,5417,1,Large,Yes,267,360,Male,Graduate,Yes,4196,Y
+Loan738,0,2333,1,Large,No,95,360,Male,Not Graduate,Yes,1516,Y
+Loan739,3+,3036,0,Medium,No,158,360,Male,Graduate,Yes,2504,N
+Loan740,2,4006,1,Large,No,168,360,Male,Graduate,Yes,1526,Y
+Loan741,1,12841,1,Medium,No,349,360,Male,Graduate,Yes,10968,N
+Loan742,2,3200,1,Large,No,70,360,Male,Graduate,Yes,700,Y
+Loan743,2,2500,1,Large,,109,360,Male,Graduate,Yes,1840,Y
+Loan744,2,3073,1,Large,No,200,360,Male,Graduate,Yes,8106,Y
+Loan745,0,1853,1,Small,No,114,360,Male,Graduate,No,2840,N
+Loan746,2,1299,1,Large,No,17,120,Male,Graduate,Yes,1086,Y
+Loan747,0,4950,1,Large,No,125,360,Male,Graduate,No,0,Y
+Loan748,1,3596,,Large,No,100,240,Male,Not Graduate,No,0,Y
+Loan749,0,3510,0,Large,No,76,360,Female,Graduate,No,0,N
+Loan750,0,4887,1,Small,No,133,360,Male,Not Graduate,Yes,0,N
+Loan751,0,2600,1,Large,,115,,Male,Graduate,Yes,3500,Y
+Loan752,0,7660,0,Large,No,104,360,Male,Not Graduate,Yes,0,N
+Loan753,1,5955,1,Large,No,315,360,Male,Graduate,Yes,5625,Y
+Loan754,0,2600,0,Medium,No,116,360,Male,Not Graduate,Yes,1911,N
+Loan755,2,3365,0,Small,No,112,360,,Not Graduate,Yes,1917,N
+Loan756,1,3717,,Medium,,151,360,Male,Graduate,Yes,2925,N
+Loan757,0,9560,1,Medium,Yes,191,360,Male,Graduate,Yes,0,Y
+Loan758,0,2799,1,Medium,No,122,360,Male,Graduate,Yes,2253,Y
+Loan759,2,4226,1,Large,No,110,360,Male,Not Graduate,Yes,1040,Y
+Loan760,0,1442,1,Large,No,35,360,Male,Not Graduate,No,0,N
+Loan761,2,3750,1,Medium,,120,360,Female,Graduate,No,2083,Y
+Loan762,1,4166,,Large,,201,360,Male,Graduate,Yes,3369,N
+Loan763,0,3167,1,Large,No,74,360,Male,Graduate,No,0,N
+Loan764,1,4692,1,Small,Yes,106,360,Male,Graduate,No,0,N
+Loan765,0,3500,1,Medium,No,114,360,Male,Graduate,Yes,1667,Y
+Loan766,3+,12500,1,Small,No,320,360,Male,Graduate,No,3000,N
+Loan767,0,2275,1,Large,No,,360,Male,Graduate,Yes,2067,Y
+Loan768,0,1828,0,Large,No,100,,Male,Graduate,Yes,1330,N
+Loan769,0,3667,1,Medium,No,144,360,Female,Graduate,Yes,1459,Y
+Loan770,0,4166,1,Large,No,184,360,Male,Graduate,No,7210,Y
+Loan771,0,3748,1,Medium,No,110,360,Male,Not Graduate,No,1668,Y
+Loan772,0,3600,1,Large,No,80,360,Male,Graduate,No,0,N
+Loan773,0,1800,1,Large,No,47,360,Male,Graduate,No,1213,Y
+Loan774,0,2400,,Large,No,75,360,Male,Graduate,Yes,0,Y
+Loan775,0,3941,1,Medium,No,134,360,Male,Graduate,Yes,2336,Y
+Loan776,0,4695,1,Large,Yes,96,,Male,Not Graduate,Yes,0,Y
+Loan777,0,3410,1,Large,No,88,,Female,Graduate,No,0,Y
+Loan778,1,5649,1,Large,No,44,360,Male,Graduate,Yes,0,Y
+Loan779,0,5821,1,Large,No,144,360,Male,Graduate,Yes,0,Y
+Loan780,0,2645,0,Large,No,120,360,Female,Graduate,Yes,3440,N
+Loan781,0,4000,1,Medium,No,144,360,Female,Graduate,No,2275,Y
+Loan782,0,1928,1,Medium,No,100,360,Female,Not Graduate,Yes,1644,Y
+Loan783,0,3086,1,Medium,No,120,360,Female,Graduate,No,0,Y
+Loan784,0,4230,1,Medium,No,112,360,Female,Graduate,No,0,N
+Loan785,2,4616,1,Large,No,134,360,Male,Graduate,Yes,0,N
+Loan786,1,11500,0,Large,Yes,286,360,Female,Graduate,Yes,0,N
+Loan787,2,2708,1,Medium,No,97,360,Male,Graduate,Yes,1167,Y
+Loan788,0,2132,1,Medium,No,96,360,Male,Graduate,Yes,1591,Y
+Loan789,0,3366,1,Small,No,135,360,Male,Graduate,Yes,2200,N
+Loan790,1,8080,1,Large,No,180,360,Male,Graduate,Yes,2250,Y
+Loan791,2,3357,1,Large,No,144,360,Male,Not Graduate,Yes,2859,Y
+Loan792,0,2500,1,Large,No,120,360,Male,Graduate,Yes,3796,Y
+Loan793,3+,3029,1,Large,No,99,360,Male,Graduate,Yes,0,Y
+Loan794,0,2609,0,Small,Yes,165,180,Male,Not Graduate,Yes,3449,N
+Loan795,1,4945,0,Small,No,,360,Male,Graduate,Yes,0,N
+Loan796,0,4166,0,Medium,No,116,360,Female,Graduate,No,0,N
+Loan797,0,5726,1,Medium,No,258,360,Male,Graduate,Yes,4595,N
+Loan798,0,3200,0,Large,No,126,180,Male,Not Graduate,No,2254,N
+Loan799,1,10750,1,Large,No,312,360,Male,Graduate,Yes,0,Y
+Loan800,3+,7100,1,Large,Yes,125,60,Male,Not Graduate,Yes,0,Y
+Loan801,0,4300,0,Medium,No,136,360,Female,Graduate,No,0,N
+Loan802,0,3208,1,Large,No,172,360,Male,Graduate,Yes,3066,Y
+Loan803,2,1875,1,Medium,Yes,97,360,Male,Not Graduate,Yes,1875,Y
+Loan804,0,3500,1,Medium,No,81,300,Male,Graduate,No,0,Y
+Loan805,3+,4755,0,Medium,No,95,,Male,Not Graduate,Yes,0,N
+Loan806,3+,5266,1,Medium,Yes,187,360,Male,Graduate,Yes,1774,Y
+Loan807,0,3750,1,Large,No,113,480,Male,Graduate,No,0,N
+Loan808,0,3750,1,Large,No,176,360,Male,Graduate,No,4750,N
+Loan809,1,1000,1,Large,Yes,110,360,Male,Graduate,Yes,3022,N
+Loan810,3+,3167,0,Medium,No,180,300,Male,Graduate,Yes,4000,N
+Loan811,3+,3333,,Medium,Yes,130,360,Male,Not Graduate,Yes,2166,Y
+Loan812,0,3846,1,Medium,No,111,360,Female,Graduate,No,0,Y
+Loan813,1,2395,1,Medium,Yes,,360,Male,Graduate,Yes,0,Y
+Loan814,2,1378,1,Large,No,167,360,Female,Graduate,Yes,1881,N
+Loan815,0,6000,,Medium,No,265,360,Male,Graduate,Yes,2250,N
+Loan816,1,3988,1,Large,No,50,240,Male,Graduate,Yes,0,Y
+Loan817,0,2366,1,Medium,No,136,360,Male,Graduate,No,2531,Y
+Loan818,2,3333,,Medium,No,99,360,Male,Not Graduate,Yes,2000,Y
+Loan819,0,2500,1,Medium,No,104,360,Male,Graduate,Yes,2118,Y
+Loan820,0,8566,1,Large,No,210,360,Male,Graduate,No,0,Y
+Loan821,0,5695,1,Medium,No,175,360,Male,Graduate,Yes,4167,Y
+Loan822,0,2958,1,Medium,No,131,360,Male,Graduate,Yes,2900,Y
+Loan823,2,6250,1,Medium,No,188,180,Male,Graduate,Yes,5654,Y
+Loan824,2,3273,1,Large,No,81,360,Male,Not Graduate,Yes,1820,Y
+Loan825,0,4133,1,Medium,No,122,360,Male,Graduate,No,0,Y
+Loan826,0,3620,1,Medium,No,25,120,Male,Not Graduate,No,0,Y
+Loan827,0,6782,,Large,,,360,Male,Graduate,No,0,N
+Loan828,0,2484,1,Medium,No,137,360,Female,Graduate,Yes,2302,Y
+Loan829,0,1977,1,Medium,No,50,360,Male,Graduate,Yes,997,Y
+Loan830,0,4188,1,Medium,No,115,180,Male,Not Graduate,Yes,0,Y
+Loan831,0,1759,1,Medium,No,131,360,Male,Graduate,Yes,3541,Y
+Loan832,2,4288,1,Large,No,133,180,Male,Not Graduate,Yes,3263,Y
+Loan833,0,4843,1,Medium,No,151,360,Male,Graduate,No,3806,Y
+Loan834,,13650,1,Large,No,,360,Male,Graduate,Yes,0,Y
+Loan835,0,4652,1,Medium,No,,360,Male,Graduate,Yes,3583,Y
+Loan836,,3816,1,Large,No,160,360,Male,Graduate,,754,Y
+Loan837,1,3052,1,Large,No,100,360,Male,Graduate,Yes,1030,Y
+Loan838,2,11417,1,Large,No,225,360,Male,Graduate,Yes,1126,Y
+Loan839,0,7333,1,Small,,120,360,Male,Not Graduate,No,0,N
+Loan840,2,3800,0,Large,No,216,360,Male,Graduate,Yes,3600,N
+Loan841,3+,2071,1,Medium,No,94,480,Male,Not Graduate,Yes,754,Y
+Loan842,0,5316,1,Large,No,136,360,Male,Graduate,No,0,Y
+Loan843,0,2929,1,Medium,,139,360,Female,Graduate,Yes,2333,Y
+Loan844,0,3572,0,Small,No,152,,Male,Not Graduate,Yes,4114,N
+Loan845,1,7451,1,Medium,Yes,,360,Female,Graduate,No,0,Y
+Loan846,0,5050,1,Medium,,118,360,Male,Graduate,No,0,Y
+Loan847,1,14583,1,Small,No,185,180,Male,Graduate,Yes,0,Y
+Loan848,0,3167,1,Medium,No,154,360,Female,Graduate,Yes,2283,Y
+Loan849,1,2214,,Large,No,85,360,Male,Graduate,Yes,1398,Y
+Loan850,0,5568,1,Small,No,175,360,Male,Graduate,Yes,2142,N
+Loan851,0,10408,1,Large,No,259,360,Female,Graduate,No,0,Y
+Loan852,,5667,1,Small,No,180,360,Male,Graduate,Yes,2667,Y
+Loan853,0,4166,1,Medium,No,44,360,Female,Graduate,No,0,Y
+Loan854,0,2137,0,Medium,No,137,360,Female,Graduate,No,8980,Y
+Loan855,2,2957,1,Medium,No,81,360,Male,Graduate,Yes,0,Y
+Loan856,0,4300,1,Small,No,194,360,Male,Not Graduate,Yes,2014,Y
+Loan857,0,3692,,Small,No,93,360,Female,Graduate,No,0,Y
+Loan858,3+,23803,1,Small,No,370,360,,Graduate,Yes,0,Y
+Loan859,0,3865,1,Small,No,,360,Male,Graduate,No,1640,Y
+Loan860,1,10513,0,Large,Yes,160,180,Male,Graduate,Yes,3850,N
+Loan861,0,6080,,Small,No,182,360,Male,Graduate,Yes,2569,N
+Loan862,0,20166,,Large,Yes,650,480,Male,Graduate,No,0,Y
+Loan863,0,2014,1,Large,No,74,360,Male,Graduate,No,1929,Y
+Loan864,0,2718,1,Medium,No,70,360,Male,Graduate,No,0,Y
+Loan865,0,3459,1,Medium,Yes,25,120,Male,Graduate,Yes,0,Y
+Loan866,0,4895,1,Medium,No,102,360,Male,Graduate,No,0,Y
+Loan867,3+,4000,1,Medium,No,290,360,Male,Graduate,Yes,7750,N
+Loan868,0,4583,1,Small,No,84,360,Female,Graduate,Yes,0,N
+Loan869,2,3316,1,Large,Yes,88,360,Male,Graduate,Yes,3500,Y
+Loan870,0,14999,0,Medium,No,242,360,Male,Graduate,No,0,N
+Loan871,2,4200,1,Small,No,129,360,Male,Not Graduate,Yes,1430,N
+Loan872,2,5042,1,Small,No,185,360,Male,Graduate,Yes,2083,N
+Loan873,0,5417,1,Large,No,168,360,Male,Graduate,No,0,Y
+Loan874,0,6950,1,Medium,Yes,175,180,Male,Graduate,No,0,Y
+Loan875,0,2698,1,Medium,No,122,360,Male,Graduate,Yes,2034,Y
+Loan876,2,11757,1,Large,No,187,180,Male,Graduate,Yes,0,Y
+Loan877,0,2330,1,Medium,No,100,360,Female,Graduate,Yes,4486,Y
+Loan878,2,14866,1,Large,No,70,360,Female,Graduate,Yes,0,Y
+Loan879,1,1538,1,Large,No,30,360,Male,Graduate,Yes,1425,Y
+Loan880,0,10000,1,Small,No,225,360,Female,Graduate,No,1666,N
+Loan881,0,4860,1,Medium,No,125,360,Male,Graduate,Yes,830,Y
+Loan882,0,6277,0,Small,No,118,360,Male,Graduate,No,0,N
+Loan883,0,2577,1,Small,Yes,152,360,Male,Graduate,Yes,3750,Y
+Loan884,0,9166,1,Large,No,244,360,Male,Graduate,No,0,N
+Loan885,2,2281,1,Small,No,113,360,Male,Not Graduate,Yes,0,N
+Loan886,0,3254,1,Large,No,50,360,Male,Graduate,No,0,Y
+Loan887,3+,39999,0,Medium,No,600,180,Male,Graduate,Yes,0,Y
+Loan888,1,6000,,Small,No,160,360,Male,Graduate,Yes,0,Y
+Loan889,1,9538,1,Large,No,187,360,Male,Graduate,Yes,0,Y
+Loan890,0,2980,1,Small,,120,360,Male,Graduate,No,2083,Y
+Loan891,0,4583,1,Medium,No,255,360,Male,Graduate,Yes,5625,Y
+Loan892,0,1863,1,Medium,No,98,360,Male,Not Graduate,Yes,1041,Y
+Loan893,0,7933,1,Large,No,275,360,Male,Graduate,Yes,0,N
+Loan894,1,3089,0,Medium,No,121,360,Male,Graduate,Yes,1280,N
+Loan895,2,4167,1,Small,No,158,360,Male,Graduate,Yes,1447,Y
+Loan896,0,9323,1,Large,No,75,180,Male,Graduate,Yes,0,Y
+Loan897,0,3707,1,Small,No,182,,Male,Graduate,Yes,3166,Y
+Loan898,0,4583,1,Small,No,112,360,Female,Graduate,Yes,0,N
+Loan899,0,2439,1,Small,No,129,360,Male,Graduate,Yes,3333,Y
+Loan900,0,2237,0,Medium,No,63,480,Male,Graduate,No,0,N
+Loan901,2,8000,1,Medium,No,200,360,Male,Graduate,Yes,0,Y
+Loan902,0,1820,1,Small,,95,360,Male,Not Graduate,Yes,1769,Y
+Loan903,3+,51763,1,Large,No,700,300,,Graduate,Yes,0,Y
+Loan904,3+,3522,1,Small,No,81,180,Male,Not Graduate,Yes,0,N
+Loan905,0,5708,1,Medium,No,187,360,Male,Graduate,Yes,5625,Y
+Loan906,0,4344,1,Medium,Yes,87,360,Male,Not Graduate,Yes,736,N
+Loan907,0,3497,1,Small,No,116,360,Male,Graduate,Yes,1964,Y
+Loan908,2,2045,1,Small,No,101,360,Male,Graduate,Yes,1619,Y
+Loan909,3+,5516,0,Medium,No,495,360,Male,Graduate,Yes,11300,N
+Loan910,1,3750,1,Medium,No,116,360,Male,Graduate,Yes,0,Y
+Loan911,0,2333,0,Large,No,102,480,Male,Not Graduate,No,1451,N
+Loan912,1,6400,0,Large,No,180,360,Male,Graduate,Yes,7250,N
+Loan913,0,1916,,Small,No,67,360,Male,Graduate,No,5063,N
+Loan914,0,4600,1,Medium,No,73,180,Male,Graduate,Yes,0,Y
+Loan915,1,33846,1,Medium,No,260,360,Male,Graduate,Yes,0,N
+Loan916,0,3625,1,Medium,No,108,360,Female,Graduate,Yes,0,Y
+Loan917,0,39147,1,Medium,Yes,120,360,Male,Graduate,Yes,4750,Y
+Loan918,1,2178,0,Small,Yes,66,300,Male,Graduate,Yes,0,N
+Loan919,0,2383,,Small,No,58,360,Male,Graduate,Yes,2138,Y
+Loan920,0,674,1,Small,Yes,168,360,,Graduate,Yes,5296,Y
+Loan921,0,9328,1,Small,No,188,180,Male,Graduate,Yes,0,Y
+Loan922,0,4885,1,Small,No,48,360,Male,Not Graduate,No,0,Y
+Loan923,0,12000,1,Medium,No,164,360,Male,Graduate,No,0,N
+Loan924,0,6033,1,Large,No,160,360,Male,Not Graduate,Yes,0,N
+Loan925,0,3858,1,Medium,No,76,360,Male,Graduate,No,0,Y
+Loan926,0,4191,1,Small,No,120,360,Male,Graduate,No,0,Y
+Loan927,1,3125,1,Medium,No,170,360,Male,Graduate,Yes,2583,N
+Loan928,0,8333,1,Small,No,187,360,Male,Graduate,No,3750,Y
+Loan929,0,1907,1,Large,No,120,,Female,Not Graduate,No,2365,Y
+Loan930,0,3416,,Medium,No,113,360,Female,Graduate,Yes,2816,Y
+Loan931,0,11000,1,Large,Yes,83,360,Male,Graduate,No,0,N
+Loan932,1,2600,1,Medium,No,90,360,Male,Not Graduate,Yes,2500,Y
+Loan933,2,4923,0,Medium,No,166,360,Male,Graduate,No,0,Y
+Loan934,3+,3992,1,Large,No,,180,Male,Not Graduate,Yes,0,N
+Loan935,1,3500,1,Large,No,135,360,Male,Not Graduate,Yes,1083,Y
+Loan936,2,3917,1,Medium,No,124,360,Male,Not Graduate,Yes,0,Y
+Loan937,0,4408,1,Medium,No,120,360,Female,Not Graduate,No,0,Y
+Loan938,0,3244,1,Large,No,80,360,Female,Graduate,No,0,Y
+Loan939,0,3975,1,Small,No,55,360,Male,Not Graduate,No,2531,Y
+Loan940,0,2479,1,Large,No,59,360,Male,Graduate,No,0,Y
+Loan941,0,3418,1,Medium,No,127,360,Male,Graduate,No,0,N
+Loan942,0,10000,1,Medium,No,214,360,Female,Graduate,No,0,N
+Loan943,3+,3430,0,Medium,No,128,360,Male,Graduate,Yes,1250,N
+Loan944,1,7787,1,Large,Yes,240,360,Male,Graduate,Yes,0,Y
+Loan945,3+,5703,1,Small,Yes,130,360,Male,Not Graduate,Yes,0,Y
+Loan946,0,3173,1,Large,No,137,360,Male,Graduate,Yes,3021,Y
+Loan947,3+,3850,1,Medium,No,100,360,Male,Not Graduate,Yes,983,Y
+Loan948,0,150,1,Small,No,135,360,Male,Graduate,Yes,1800,N
+Loan949,0,3727,1,Medium,No,131,360,Male,Graduate,Yes,1775,Y
+Loan950,2,5000,0,Medium,,72,360,Male,Graduate,Yes,0,N
+Loan951,2,4283,,Medium,No,127,360,Female,Graduate,Yes,2383,Y
+Loan952,0,2221,0,Large,No,60,360,Male,Graduate,Yes,0,N
+Loan953,2,4009,1,Medium,No,116,360,Male,Graduate,Yes,1717,Y
+Loan954,0,2971,1,Medium,No,144,360,Male,Graduate,No,2791,Y
+Loan955,0,7578,1,Medium,No,175,,Male,Graduate,Yes,1010,Y
+Loan956,0,6250,1,Medium,No,128,360,Male,Graduate,Yes,0,Y
+Loan957,0,3250,1,Small,No,170,360,Male,Graduate,Yes,0,N
+Loan958,,4735,1,Large,Yes,138,360,Male,Not Graduate,Yes,0,N
+Loan959,2,6250,1,Medium,No,210,360,Male,Graduate,Yes,1695,Y
+Loan960,,4758,1,Medium,No,158,480,Male,Graduate,,0,Y
+Loan961,0,6400,1,Small,Yes,200,360,Male,Graduate,No,0,Y
+Loan962,1,2491,1,Medium,No,104,360,Male,Graduate,Yes,2054,Y
+Loan963,0,3716,1,Small,,42,180,Male,Graduate,Yes,0,Y
+Loan964,0,3189,1,Small,No,120,,Male,Not Graduate,No,2598,Y
+Loan965,0,8333,1,Medium,No,280,360,Female,Graduate,No,0,Y
+Loan966,1,3155,1,Medium,No,140,360,Male,Graduate,Yes,1779,Y
+Loan967,1,5500,1,Small,No,170,360,Male,Graduate,Yes,1260,Y
+Loan968,0,5746,,Large,,255,360,Male,Graduate,Yes,0,N
+Loan969,0,3463,,Large,Yes,122,360,Female,Graduate,No,0,Y
+Loan970,1,3812,1,Small,No,112,360,Female,Graduate,No,0,Y
+Loan971,1,3315,1,Medium,No,96,360,Male,Graduate,Yes,0,Y
+Loan972,2,5819,1,Small,No,120,360,Male,Graduate,Yes,5000,Y
+Loan973,1,2510,1,Large,No,140,180,Male,Not Graduate,Yes,1983,N
+Loan974,0,2965,1,Large,No,155,60,Male,Graduate,No,5701,Y
+Loan975,2,6250,1,Small,Yes,108,360,Male,Graduate,Yes,1300,Y
+Loan976,0,3406,1,Medium,No,123,360,Male,Not Graduate,Yes,4417,Y
+Loan977,0,6050,1,Large,Yes,120,180,Male,Graduate,No,4333,N
+Loan978,2,9703,1,Large,No,112,360,Male,Graduate,Yes,0,Y
+Loan979,1,6608,1,Large,No,137,180,Male,Not Graduate,Yes,0,Y
+Loan980,1,2882,1,Medium,No,123,480,Male,Graduate,Yes,1843,Y
+Loan981,0,1809,1,Large,No,90,360,Male,Graduate,Yes,1868,Y
+Loan982,0,1668,0,Medium,No,201,360,Male,Not Graduate,Yes,3890,N
+Loan983,2,3427,1,Large,No,138,360,Female,Graduate,No,0,N
+Loan984,0,2583,1,Small,Yes,104,360,Male,Not Graduate,No,2167,Y
+Loan985,1,2661,1,Medium,No,279,180,Male,Not Graduate,Yes,7101,Y
+Loan986,0,16250,0,Large,Yes,192,360,Male,Graduate,No,0,N
+Loan987,3+,3083,1,Small,No,255,360,Female,Graduate,No,0,Y
+Loan988,0,6045,0,Small,No,115,360,Male,Not Graduate,No,0,N
+Loan989,3+,5250,1,Large,No,94,360,Male,Graduate,Yes,0,N
+Loan990,0,14683,1,Small,No,304,360,Male,Graduate,Yes,2100,N
+Loan991,3+,4931,,Medium,No,128,360,Male,Not Graduate,Yes,0,N
+Loan992,1,6083,,Large,No,330,360,Male,Graduate,Yes,4250,Y
+Loan993,0,2060,1,Medium,No,134,360,Male,Graduate,No,2209,Y
+Loan994,1,3481,1,Medium,No,155,36,Female,Graduate,No,0,N
+Loan995,0,7200,1,Small,No,120,360,Female,Graduate,No,0,Y
+Loan996,0,5166,1,Medium,Yes,128,360,Male,Graduate,No,0,Y
+Loan997,0,4095,1,Small,No,151,360,Male,Graduate,No,3447,Y
+Loan998,2,4708,1,Medium,No,150,360,Male,Graduate,Yes,1387,Y
+Loan999,3+,4333,0,Large,No,160,360,Male,Graduate,Yes,1811,Y
+Loan1000,0,3418,1,Small,,135,360,Female,Graduate,No,0,N
+Loan1001,1,2014,1,Large,No,113,360,Male,Graduate,Yes,2925,N
+Loan1002,0,1800,0,Large,No,93,360,Male,Not Graduate,Yes,2934,N
+Loan1003,,2875,1,Medium,No,105,360,Male,Not Graduate,Yes,1750,Y
+Loan1004,0,5000,1,Small,No,132,360,Female,Graduate,No,0,Y
+Loan1005,1,1625,1,Large,No,96,360,Male,Graduate,Yes,1803,Y
+Loan1006,0,4000,1,Small,No,140,360,Male,Graduate,No,2500,Y
+Loan1007,0,2000,1,Large,No,,360,Male,Not Graduate,No,0,N
+Loan1008,0,3762,1,Small,No,135,360,Female,Graduate,No,1666,Y
+Loan1009,0,2400,0,Large,No,104,360,Female,Graduate,No,1863,N
+Loan1010,0,20233,1,Small,No,480,360,Male,Graduate,No,0,N
+Loan1011,2,7667,,Small,No,185,360,Male,Not Graduate,Yes,0,Y
