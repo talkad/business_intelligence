@@ -21,16 +21,29 @@ load_dataset <- function(filepath) {
 impute <- function(df) {
   
   # impute numerical values
+  numeric_imputer <- function(df, column_name, val) {
+    df[column_name][indx<-which(is.na(df[column_name]), arr.ind=TRUE)] <- val
+    
+    return(df)
+  }
+  
   means<-colMeans(subset(df, select=c(Loan_Amount, Payment_Terms)),na.rm=TRUE)
-  df$Loan_Amount[indx<-which(is.na(df$Loan_Amount), arr.ind=TRUE)] <- means[1]
-  df$Payment_Terms[indx<-which(is.na(df$Payment_Terms), arr.ind=TRUE)] <- means[2]
+  df <- numeric_imputer(df, "Loan_Amount", means[1])
+  df <- numeric_imputer(df, "Payment_Terms", means[2])
+
   
   # impute categorical values
-  df$Employees[indx<-which(is.na(df$Employees), arr.ind=TRUE)] <- tail(names(sort(table(df$Employees))), 1)
-  df$Credit_History[indx<-which(is.na(df$Credit_History), arr.ind=TRUE)] <- tail(names(sort(table(df$Credit_History))), 1)
-  df$Export_Abroad[indx<-which(is.na(df$Export_Abroad), arr.ind=TRUE)] <- tail(names(sort(table(df$Export_Abroad))), 1)
-  df$Gender[indx<-which(is.na(df$Gender), arr.ind=TRUE)] <- tail(names(sort(table(df$Gender))), 1)
-  df$Married[indx<-which(is.na(df$Married), arr.ind=TRUE)] <- tail(names(sort(table(df$Married))), 1)
+  categorical_imputer <- function(df, column_name) {
+    df[column_name][indx<-which(is.na(df[column_name]), arr.ind=TRUE)] <- tail(names(sort(table(df[column_name]))), 1)
+
+    return(df)
+  }
+  
+  df <- categorical_imputer(df, "Employees")
+  df <- categorical_imputer(df, "Credit_History")
+  df <- categorical_imputer(df, "Export_Abroad")
+  df <- categorical_imputer(df, "Gender")
+  df <- categorical_imputer(df, "Married")
   
   return(df)
 }
