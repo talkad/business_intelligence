@@ -17,6 +17,12 @@ load_dataset <- function(filepath) {
   return(df)
 }
 
+
+check.integer <- function(N){
+  !grepl("[^[:digit:]]", format(N,  digits = 20, scientific = FALSE))
+}
+
+
 # 1.2. missing values
 impute <- function(df) {
   
@@ -49,11 +55,75 @@ impute <- function(df) {
 }
 
 
+# 1.3. numerical features discretization
+discretizator <- function(df) {
+  
+  # replace value with the suitable bin index
+  val2bin <- function(val, min_val, max_val, num_of_bins) {
+    
+    width <- (max_val - min_val) / num_of_bins
+    bin <- (val - min_val) / width
+
+    # include upper bound
+    if(bin>0 && bin%%1==0) {
+      as.integer(bin - 1)
+    }
+    else {
+      as.integer(bin)
+    }
+
+  }
+    
+  update_rows <- function(df, column_name, num_of_bins) {
+    min_val <- min(df[column_name])
+    max_val <- max(df[column_name])
+    
+    df[column_name] <- apply(df[column_name], 1, val2bin, min_val=min_val, max_val=max_val, num_of_bins=num_of_bins)
+    
+    return(df)
+  }
+    
+  
+  df <- update_rows(df, "Monthly_Profit", 5)
+  df <- update_rows(df, "Loan_Amount", 4)
+  df <- update_rows(df, "Spouse_Income", 3)
+  
+  return(df)
+}
+
+
+# 1.4. randomly splitting dataset 
+train_test_split <- function(df) {
+  sample_size <- floor(0.7*nrow(df))
+  set.seed(777)
+  
+  train_idx = sample(seq_len(nrow(df)),size = sample_size)
+  train <- df[train_idx,]
+  test <- df[-train_idx,]
+
+  return(list("train" = train, "test" = test))
+}
+
+# preprocess - impute and discretization training and testing test without 
+preprocessing_pipeline <- function(df) {
+  data = train_test_split(df)
+
+  train <- impute(data$train)
+  #row.names(data$train) <- NULL
+  train <- discretizator(train)
+  
+  test <- impute(data$test)
+  #row.names(data$test) <- NULL
+  test <- discretizator(test)
+  
+  return(list("train" = train, "test" = test))
+}
+
 
 # filepath <- readline(prompt="Enter File Path: ")
 filepath <-"C:/Users/tal74/projects/business_intelligence/R/Loan_dataset.csv"
 df <- load_dataset(filepath)
-df <- impute(df)
+data <- preprocessing_pipeline(df)
 # C:/Users/tal74/projects/business_intelligence/R/Loan_dataset.csv
 
 
