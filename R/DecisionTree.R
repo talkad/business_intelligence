@@ -127,3 +127,42 @@ data <- preprocessing_pipeline(df)
 # C:/Users/tal74/projects/business_intelligence/R/Loan_dataset.csv
 
 
+
+
+# 3 - predict the model 
+# predicts<-predict(modelName, newdata=df_test)
+# predicts<-predict(modelName, df_test, type = 'class')
+
+# count how many users are classified as qualify to loan
+# table_mat <- table(df_test$qualify, predicts)
+# table_mat
+
+# calc acc of the predict
+# accuracy_Test <- sum(diag(table_mat)) / sum(table_mat)
+# print(paste('Accuracy for test', accuracy_Test))
+
+# convert defaults from "Yes" and "No" to 1's and 0's (if nesessery)
+# test$default <- ifelse(df_test$default=="Yes", 1, 0)
+# Confusion Matrix
+# CM<-confusionMatrix(predicts, reference=testing$Species)
+
+# minsplit
+# control <- rpart.control(minsplit = 4,minbucket = round(5 / 3),maxdepth = 3,cp = 0)
+# tune_fit <- rpart(survived~., data = data_train, method = 'class', control = control)
+# accuracy_tune(tune_fit)
+
+# plot(density(iris$Sepal.Length))
+# plot(iris$Sepal.Length, iris$Sepal.Width)
+# pairs(iris)
+
+
+
+# show the tree
+# library(party)
+# iris_ctree<-ctree(Species~.,data=training)
+# plot(iris_ctree)
+
+# 
+# table(iris$Species, results$cluster)
+# plot(iris$Petal.Length, iris$Petal.Width, col=results$cluster)
+# plot(iris$Petal.Length, iris$Petal.Width, col=iris$Species)
