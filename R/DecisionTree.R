@@ -121,13 +121,36 @@ preprocessing_pipeline <- function(df) {
 
 
 # filepath <- readline(prompt="Enter File Path: ")
-filepath <-"C:/Users/tal74/projects/business_intelligence/R/Loan_dataset.csv"
+#filepath <-"C:/Users/tal74/projects/business_intelligence/R/Loan_dataset.csv"
+filepath <- "C:/Users/שקד/Documents/business_intelligence/R/Loan_dataset.csv"
 df <- load_dataset(filepath)
 data <- preprocessing_pipeline(df)
 # C:/Users/tal74/projects/business_intelligence/R/Loan_dataset.csv
 
+# 2 - buiding the model
+# 2.1 using rpart to build the decision tree
 
+# creating the training and testing data set
+trainData <- data$train
+testData <- data$test
+library(rpart)
+output.tree1 <- rpart(Request_Approved~Employees + Monthly_Profit + Credit_History + Customers + Export_Abroad + Loan_Amount + Payment_Terms + Gender + Education + Spouse_Income,data=trainData,parms=list(split="information"), minsplit=15)
+#output.tree2 <- rpart(Request_Approved~Employees + Monthly_Profit + Credit_History + Customers + Export_Abroad + Loan_Amount + Payment_Terms + Gender + Education + Spouse_Income,data=trainData,parms=list(split="gini"), minsplit=6)
+# print(output.tree)
 
+library(rpart.plot)
+
+library(RColorBrewer)
+
+library(rattle)
+
+plot(output.tree1)
+
+text(output.tree1,pretty=0)
+
+summary(output.tree1)
+
+fancyRpartPlot(output.tree1, type=1)
 
 # 3 - predict the model 
 # predicts<-predict(modelName, newdata=df_test)
@@ -141,7 +164,7 @@ data <- preprocessing_pipeline(df)
 # accuracy_Test <- sum(diag(table_mat)) / sum(table_mat)
 # print(paste('Accuracy for test', accuracy_Test))
 
-# convert defaults from "Yes" and "No" to 1's and 0's (if nesessery)
+# convert defaults from "Yes" and "No" to 1's and 0's (if necessary)
 # test$default <- ifelse(df_test$default=="Yes", 1, 0)
 # Confusion Matrix
 # CM<-confusionMatrix(predicts, reference=testing$Species)
