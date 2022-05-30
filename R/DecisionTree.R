@@ -121,8 +121,8 @@ preprocessing_pipeline <- function(df) {
 
 
 # filepath <- readline(prompt="Enter File Path: ")
-#filepath <-"C:/Users/tal74/projects/business_intelligence/R/Loan_dataset.csv"
-filepath <- "C:/Users/שקד/Documents/business_intelligence/R/Loan_dataset.csv"
+#filepath <-"C:/Users/Almogi/Desktop/githubtry/business_intelligence/R/Loan_dataset.csv"
+filepath <- "C:/Users/Almogi/Desktop/githubtry/business_intelligence/R/Loan_dataset.csv"
 df <- load_dataset(filepath)
 data <- preprocessing_pipeline(df)
 # C:/Users/tal74/projects/business_intelligence/R/Loan_dataset.csv
@@ -153,39 +153,59 @@ summary(output.tree1)
 fancyRpartPlot(output.tree1, type=1)
 
 # 3 - predict the model 
-# predicts<-predict(modelName, newdata=df_test)
-# predicts<-predict(modelName, df_test, type = 'class')
+predicts<-predict(output.tree1, newdata=testData, type = 'class')
 
+#lst_predicts <- list()
+#for (value in predicts){
+#  if (value > 0.5)
+#    lst_predicts <- append(lst_predicts, "N")
+#  else
+#    lst_predicts <- append(lst_predicts, "Y")
+#}
+
+#print(testData$Request_Approved)
 # count how many users are classified as qualify to loan
-# table_mat <- table(df_test$qualify, predicts)
-# table_mat
+table_mat <- table(testData$Request_Approved, predicts)
+table_mat
 
 # calc acc of the predict
-# accuracy_Test <- sum(diag(table_mat)) / sum(table_mat)
-# print(paste('Accuracy for test', accuracy_Test))
+accuracy_Test <- sum(diag(table_mat)) / sum(table_mat)
+print(paste('Accuracy for test', accuracy_Test))
 
-# convert defaults from "Yes" and "No" to 1's and 0's (if necessary)
-# test$default <- ifelse(df_test$default=="Yes", 1, 0)
-# Confusion Matrix
-# CM<-confusionMatrix(predicts, reference=testing$Species)
+
+#Confusion Matrix
+library(caret)
+Churn <- as.factor(testData$Request_Approved)
+CM<-confusionMatrix(predicts, Churn)
+CM
 
 # minsplit
-# control <- rpart.control(minsplit = 4,minbucket = round(5 / 3),maxdepth = 3,cp = 0)
-# tune_fit <- rpart(survived~., data = data_train, method = 'class', control = control)
-# accuracy_tune(tune_fit)
-
-# plot(density(iris$Sepal.Length))
-# plot(iris$Sepal.Length, iris$Sepal.Width)
-# pairs(iris)
-
+#control <- rpart.control(minsplit = 4,minbucket = round(5 / 3),maxdepth = 3,cp = 0)
+#tune_fit <- rpart(Request_Approved~., data = trainData, method = 'class', control = control)
+#accuracy_tune(tune_fit)
 
 
 # show the tree
-# library(party)
-# iris_ctree<-ctree(Species~.,data=training)
-# plot(iris_ctree)
+library(party)
+#airq <- subset(testData, !is.na(Request_Approved))
+# convert defaults from "Yes" and "No" to 1's and 0's (if necessary)
+testData$Request_Approved<-ifelse(testData$Request_Approved=="Y", 1 , 0)
+testData$Married<-ifelse(testData$Married=="Yes", 1 , 0)
+testData$Education<-ifelse(testData$Education=="Graduate", 1 , 0)
+testData$Gender<-ifelse(testData$Gender=="Male", 1 , 0)
+testData$Export_Abroad<-ifelse(testData$Export_Abroad=="Yes", 1 , 0)
+testData$Employees<-ifelse(testData$Employees=="0", 0, ifelse(testData$Employees=="1" ,1, ifelse(testData$Employees=="2" ,2, 3)))
+testData$Credit_History<-ifelse(testData$Credit_History=="1", 1 , 0)
+testData$Customers<-ifelse(testData$Customers=="Small", 0, ifelse(testData$Customers=="Medium" ,1, 2))
+#testData
+airct <- ctree(Request_Approved~., data = testData)
+airct
+plot(airct)
+mean((testData$Request_Approved - predict(airct))^2)
 
-# 
-# table(iris$Species, results$cluster)
-# plot(iris$Petal.Length, iris$Petal.Width, col=results$cluster)
-# plot(iris$Petal.Length, iris$Petal.Width, col=iris$Species)
+plot(density(testData$Request_Approved))
+pairs(testData)
+
+#table(testData$Request_Approved, predicts)
+#plot(testData$Employees, testData$Gender, col=predicts)
+#plot(testData$Petal.Length, testData$Petal.Width, col=testData$Request_Approved)
