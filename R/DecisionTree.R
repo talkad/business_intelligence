@@ -130,9 +130,6 @@ train_test_split <- function(df) {
 
 # preprocess - impute and discretization training and testing test without 
 preprocessing_pipeline <- function(df) {
-  df1 <- impute(df)
-  df1 <- discretizator(df1)
-  write.csv(df1,"C:/Users/tal74/projects/business_intelligence/R/check.csv", row.names = FALSE)
   
   data = train_test_split(df)
 
