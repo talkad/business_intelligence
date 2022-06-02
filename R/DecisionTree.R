@@ -121,8 +121,8 @@ preprocessing_pipeline <- function(df) {
 
 
 # filepath <- readline(prompt="Enter File Path: ")
-#filepath <-"C:/Users/Almogi/Desktop/githubtry/business_intelligence/R/Loan_dataset.csv"
-filepath <- "C:/Users/Almogi/Desktop/githubtry/business_intelligence/R/Loan_dataset.csv"
+#filepath <-"C:/Users/tal74/projects/business_intelligence/R/Loan_dataset.csv"
+filepath <- "C:/Users/שקד/Documents/business_intelligence/R/Loan_dataset.csv"
 df <- load_dataset(filepath)
 data <- preprocessing_pipeline(df)
 # C:/Users/tal74/projects/business_intelligence/R/Loan_dataset.csv
@@ -134,7 +134,7 @@ data <- preprocessing_pipeline(df)
 trainData <- data$train
 testData <- data$test
 library(rpart)
-output.tree1 <- rpart(Request_Approved~Employees + Monthly_Profit + Credit_History + Customers + Export_Abroad + Loan_Amount + Payment_Terms + Gender + Education + Spouse_Income,data=trainData,parms=list(split="information"), minsplit=15)
+output.tree1 <- rpart(Request_Approved~., data=trainData,parms=list(split="information"), minsplit=24, cp = 0.0035)
 #output.tree2 <- rpart(Request_Approved~Employees + Monthly_Profit + Credit_History + Customers + Export_Abroad + Loan_Amount + Payment_Terms + Gender + Education + Spouse_Income,data=trainData,parms=list(split="gini"), minsplit=6)
 # print(output.tree)
 
@@ -150,7 +150,7 @@ text(output.tree1,pretty=0)
 
 summary(output.tree1)
 
-fancyRpartPlot(output.tree1, type=1)
+fancyRpartPlot(output.tree1, type=2)
 
 # 3 - predict the model 
 predicts<-predict(output.tree1, newdata=testData, type = 'class')
