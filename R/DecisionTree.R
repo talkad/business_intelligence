@@ -159,7 +159,7 @@ data <- preprocessing_pipeline(df)
 trainData <- data$train
 testData <- data$test
 library(rpart)
-output.tree1 <- rpart(Request_Approved~., data=trainData,parms=list(split="information"), minsplit=24, cp = 0.0035)
+output.tree1 <- rpart(Request_Approved~., data=trainData,parms=list(split="information"), minsplit=35, cp = 0.005)
 #output.tree2 <- rpart(Request_Approved~Employees + Monthly_Profit + Credit_History + Customers + Export_Abroad + Loan_Amount + Payment_Terms + Gender + Education + Spouse_Income,data=trainData,parms=list(split="gini"), minsplit=6)
 # print(output.tree)
 
@@ -179,6 +179,7 @@ fancyRpartPlot(output.tree1, type=2)
 
 # 3 - predict the model 
 predicts<-predict(output.tree1, newdata=testData, type = 'class')
+#predicts<-predict(output.tree1, newdata=trainData, type = 'class')
 
 #lst_predicts <- list()
 #for (value in predicts){
@@ -191,6 +192,8 @@ predicts<-predict(output.tree1, newdata=testData, type = 'class')
 #print(testData$Request_Approved)
 # count how many users are classified as qualify to loan
 table_mat <- table(testData$Request_Approved, predicts)
+#table_mat <- table(trainData$Request_Approved, predicts)
+
 table_mat
 
 # calc acc of the predict
