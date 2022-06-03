@@ -1,8 +1,8 @@
 
 
 # 1.1. loading the data
-load_dataset <- function(filepath) {
-  data = read.csv(filepath)
+load_dataset <- function(data) {
+  # data = read.csv(filepath)
   df = data.frame(data)
 
   # print columns types
@@ -145,10 +145,12 @@ preprocessing_pipeline <- function(df) {
 }
 
 
-# filepath <- readline(prompt="Enter File Path: ")
+#filepath <- readline(prompt="Enter File Path: ")
 #filepath <-"C:/Users/tal74/projects/business_intelligence/R/Loan_dataset.csv"
-filepath <- "C:\\Users\\Almogi\\Desktop\\githubtry\\business_intelligence\\R\\Loan_dataset.csv"
-df <- load_dataset(filepath)
+#filepath <- "C:\\Users\\Almogi\\Desktop\\githubtry\\business_intelligence\\R\\Loan_dataset.csv"
+df <- read.csv(file.choose())
+
+df <- load_dataset(df)
 data <- preprocessing_pipeline(df)
 # C:/Users/tal74/projects/business_intelligence/R/Loan_dataset.csv
 
