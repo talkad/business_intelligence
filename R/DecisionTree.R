@@ -179,43 +179,29 @@ fancyRpartPlot(output.tree1, type=2)
 
 # 3 - predict the model 
 predicts<-predict(output.tree1, newdata=testData, type = 'class')
-#predicts<-predict(output.tree1, newdata=trainData, type = 'class')
 
-#lst_predicts <- list()
-#for (value in predicts){
-#  if (value > 0.5)
-#    lst_predicts <- append(lst_predicts, "N")
-#  else
-#    lst_predicts <- append(lst_predicts, "Y")
-#}
 
-#print(testData$Request_Approved)
 # count how many users are classified as qualify to loan
 table_mat <- table(testData$Request_Approved, predicts)
-#table_mat <- table(trainData$Request_Approved, predicts)
-
 table_mat
 
 # calc acc of the predict
 accuracy_Test <- sum(diag(table_mat)) / sum(table_mat)
-print(paste('Accuracy for test', accuracy_Test))
+acc_num <- sprintf("%.3f", accuracy_Test)
+print(paste('Accuracy for test is ', as.numeric(acc_num)*100, '%'))
 
 
-#Confusion Matrix
+#Confusion Matrix - categorize the predictions against the actual values
 library(caret)
 Churn <- as.factor(testData$Request_Approved)
-CM<-confusionMatrix(predicts, Churn)
+CM<-confusionMatrix(data=predicts, reference=Churn)
 CM
 
-# minsplit
-#control <- rpart.control(minsplit = 4,minbucket = round(5 / 3),maxdepth = 3,cp = 0)
-#tune_fit <- rpart(Request_Approved~., data = trainData, method = 'class', control = control)
-#accuracy_tune(tune_fit)
+
 
 
 # show the tree
 library(party)
-#airq <- subset(testData, !is.na(Request_Approved))
 # convert defaults from "Yes" and "No" to 1's and 0's (if necessary)
 testData$Request_Approved<-ifelse(testData$Request_Approved=="Y", 1 , 0)
 testData$Married<-ifelse(testData$Married=="Yes", 1 , 0)
@@ -225,15 +211,25 @@ testData$Export_Abroad<-ifelse(testData$Export_Abroad=="Yes", 1 , 0)
 testData$Employees<-ifelse(testData$Employees=="0", 0, ifelse(testData$Employees=="1" ,1, ifelse(testData$Employees=="2" ,2, 3)))
 testData$Credit_History<-ifelse(testData$Credit_History=="1", 1 , 0)
 testData$Customers<-ifelse(testData$Customers=="Small", 0, ifelse(testData$Customers=="Medium" ,1, 2))
-#testData
-airct <- ctree(Request_Approved~., data = testData)
+
+trainDataCheck <- trainData
+trainDataCheck$Request_Approved<-ifelse(trainDataCheck$Request_Approved=="Y", 1 , 0)
+trainDataCheck$Married<-ifelse(trainDataCheck$Married=="Yes", 1 , 0)
+trainDataCheck$Education<-ifelse(trainDataCheck$Education=="Graduate", 1 , 0)
+trainDataCheck$Gender<-ifelse(trainDataCheck$Gender=="Male", 1 , 0)
+trainDataCheck$Export_Abroad<-ifelse(trainDataCheck$Export_Abroad=="Yes", 1 , 0)
+trainDataCheck$Employees<-ifelse(trainDataCheck$Employees=="0", 0, ifelse(trainDataCheck$Employees=="1" ,1, ifelse(trainDataCheck$Employees=="2" ,2, 3)))
+trainDataCheck$Credit_History<-ifelse(trainDataCheck$Credit_History=="1", 1 , 0)
+trainDataCheck$Customers<-ifelse(trainDataCheck$Customers=="Small", 0, ifelse(trainDataCheck$Customers=="Medium" ,1, 2))
+
+# conditional inference tree - classify by some params
+airct <- ctree(Request_Approved~., data = trainDataCheck)
 airct
 plot(airct)
-mean((testData$Request_Approved - predict(airct))^2)
-
+# MSE - mean squared error - measure how far predicted values are from observed values in a regression analysis
+mean((trainDataCheck$Request_Approved - predict(airct))^2)
+# ratio of the individuals to the entire population
 plot(density(testData$Request_Approved))
-pairs(testData)
+#  the correlation between every param
+pairs(trainDataCheck, col = "red",pch = 18, main = "the correlation between every param")
 
-#table(testData$Request_Approved, predicts)
-#plot(testData$Employees, testData$Gender, col=predicts)
-#plot(testData$Petal.Length, testData$Petal.Width, col=testData$Request_Approved)
