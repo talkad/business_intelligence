@@ -1,11 +1,5 @@
-import tkinter.messagebox
-
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
-
-
-def preprocess_success_msg():
-    tkinter.messagebox.showinfo("K Means Clustering", "Preprocessing completed successfully!")
 
 
 class preprocessor:
@@ -14,7 +8,7 @@ class preprocessor:
         self.df = None
         self.df_countries = None
 
-    def load_data(self, filepath):
+    def load_data(self, filepath):  # todo needs to call the rest of the processing
         print(filepath)
         try:
             self.df = pd.read_excel(filepath, index_col=0)
@@ -46,6 +40,6 @@ class preprocessor:
         self.data_normalization()
         self.data_grouping()
 
-        preprocess_success_msg()
+        # todo send success string later "Preprocessing completed successfully!"
 
         return self.df, self.df_countries, ''

@@ -5,16 +5,8 @@ import tkinter.messagebox
 from preprocessor import preprocessor
 
 
-def cluster_error_msg():
-    tkinter.messagebox.showinfo("K Means Clustering", "K clusters must be a positive integer")
-
-
-def runs_error_msg():
-    tkinter.messagebox.showinfo("K Means Clustering", "Number of runs must be a positive integer")
-
-
-def file_error_msg():
-    tkinter.messagebox.showinfo("K Means Clustering", "No file path provided")
+def error_msg(msg):
+    tkinter.messagebox.showinfo("K Means Clustering", msg)
 
 
 class Gui:
@@ -38,6 +30,7 @@ class Gui:
         # start 1.2
         self.cluster_num = 0
         self.runs_num = 0
+        self.column_num = 0
 
         self.cluster_num_label = Label(master, text="Number of clusters k:")
 
@@ -85,7 +78,11 @@ class Gui:
         try:
             self.cluster_num = int(new_text)
             if self.cluster_num < 1:
-                cluster_error_msg()
+                error_msg("K clusters must be a positive integer")
+                return False
+            if self.cluster_num > self.column_num:
+                error_msg("Number of clusters must be a smaller than the number of columns")
+                # todo pull column number after pressing pre-process
                 return False
             return True
         except ValueError:
@@ -99,7 +96,7 @@ class Gui:
         try:
             self.runs_num = int(new_text)
             if self.runs_num < 1:
-                runs_error_msg()
+                error_msg("Number of runs must be a positive integer")
                 return False
             return True
         except ValueError:
@@ -107,20 +104,23 @@ class Gui:
 
     def check_kmeans(self):
         if self.cluster_num < 1:
-            cluster_error_msg()
+            error_msg("K clusters must be a positive integer")
             return False
         if self.runs_num < 1:
-            runs_error_msg()
+            error_msg("Number of runs must be a positive integer")
             return False
         return 0  # todo kmeans()
 
     def pre_processing(self):
         if len(self.file_path.get()) > 0:
-            preprocessor.load_data(self.p, self.file_path.get())  # todo check i actually need the get
-            # and ask tal what to do with it
+            file_msg = preprocessor.load_data(self.p, self.file_path.get())  # todo get column num and assign it, get fail msg, if fail msg is empty print error
+            if len(file_msg) > 0:
+                error_msg(file_msg)
+                return False
+            # todo self.column_num = ret_col_val
             return True
         else:
-            file_error_msg()
+            error_msg("No file path provided")
             return False
 
 
