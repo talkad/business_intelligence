@@ -5,8 +5,8 @@ import pandas as pd
 if __name__ == '__main__':
 
     p = preprocessor()
-    # df, countries, err_msg = p.preprocess('C:\\Users\\tal74\\PycharmProjects\\clustering\\Dataset.xlsx')
-    df, countries, err_msg = p.preprocess('C:\\Users\\שקד\\Documents\\business_intelligence\\Clustering\\Dataset.xlsx')
+    df, countries, err_msg = p.preprocess('C:\\Users\\tal74\\PycharmProjects\\clustering\\Dataset.xlsx')
+    # df, countries, err_msg = p.preprocess('C:\\Users\\שקד\\Documents\\business_intelligence\\Clustering\\Dataset.xlsx')
 
-    print(df.countries())
+    # print(len(countries))
 

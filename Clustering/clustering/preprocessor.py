@@ -9,7 +9,6 @@ class preprocessor:
         self.df_countries = None
 
     def load_data(self, filepath):  # todo needs to call the rest of the processing
-        print(filepath)
         try:
             self.df = pd.read_excel(filepath, index_col=0)
         except FileNotFoundError:
@@ -40,6 +39,4 @@ class preprocessor:
         self.data_normalization()
         self.data_grouping()
 
-        # todo send success string later "Preprocessing completed successfully!"
-
-        return self.df, self.df_countries, ''
+        return self.df, self.df_countries, 'Preprocessing completed successfully!'

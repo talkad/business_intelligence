@@ -30,7 +30,7 @@ class Gui:
         # start 1.2
         self.cluster_num = 0
         self.runs_num = 0
-        self.column_num = 0
+        self.row_num = 0
 
         self.cluster_num_label = Label(master, text="Number of clusters k:")
 
@@ -80,7 +80,7 @@ class Gui:
             if self.cluster_num < 1:
                 error_msg("K clusters must be a positive integer")
                 return False
-            if self.cluster_num > self.column_num:
+            if self.cluster_num > self.row_num:
                 error_msg("Number of clusters must be a smaller than the number of columns")
                 # todo pull column number after pressing pre-process
                 return False
@@ -113,11 +113,15 @@ class Gui:
 
     def pre_processing(self):
         if len(self.file_path.get()) > 0:
-            file_msg = preprocessor.load_data(self.p, self.file_path.get())  # todo get column num and assign it, get fail msg, if fail msg is empty print error
-            if len(file_msg) > 0:
-                error_msg(file_msg)
+
+            df, countries, self.err_msg = self.p.preprocess(self.file_path.get())
+            error_msg(self.err_msg)
+
+            if df is None:
                 return False
-            # todo self.column_num = ret_col_val
+
+            self.row_num = len(df)
+
             return True
         else:
             error_msg("No file path provided")
