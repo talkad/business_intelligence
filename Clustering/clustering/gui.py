@@ -30,7 +30,7 @@ class Gui:
         # start 1.2
         self.cluster_num = 0
         self.runs_num = 0
-        self.row_num = 0
+        self.row_num = 150
 
         self.cluster_num_label = Label(master, text="Number of clusters k:")
 
@@ -80,10 +80,6 @@ class Gui:
             if self.cluster_num < 1:
                 error_msg("K clusters must be a positive integer")
                 return False
-            if self.cluster_num > self.row_num:
-                error_msg("Number of clusters must be a smaller than the number of columns")
-                # todo pull column number after pressing pre-process
-                return False
             return True
         except ValueError:
             return False
@@ -109,13 +105,16 @@ class Gui:
         if self.runs_num < 1:
             error_msg("Number of runs must be a positive integer")
             return False
+        if self.cluster_num > self.row_num:
+            error_msg("Number of clusters must be a smaller than the number of columns")
+            return False
         return 0  # todo kmeans()
 
     def pre_processing(self):
         if len(self.file_path.get()) > 0:
 
-            df, countries, self.err_msg = self.p.preprocess(self.file_path.get())
-            error_msg(self.err_msg)
+            df, countries, err_msg = self.p.preprocess(self.file_path.get())
+            error_msg(err_msg)
 
             if df is None:
                 return False
