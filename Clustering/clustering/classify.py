@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 import plotly.express as px
 import pycountry
-#import plotly.plotly as py
+# import plotly.plotly as py
 import chart_studio.plotly as py
 import seaborn as sns
 import numpy as np
@@ -15,50 +15,55 @@ class classify:
     def __init__(self):
         self.ma = None
 
+    # run Kmean algorithm and create the scatter graph and choromap
     def KMean(self, countries, n_clusters=3, n_init=3):
-        #np.random.seed(42)
-        #inertia = []
-        #for i in range(2, 50):
-        #    kmeans = KMeans(n_clusters=i).fit(countries)
-        #    inertia.append(kmeans.inertia_)
 
-        # visualization of the model
-        #sns.pointplot(x=list(range(2, 50)), y=inertia)
-        #plt.title('SSE on K-Means based on # of clusters')
-        #plt.show()
-        #for col_name in countries.columns:
-        #    if not col_name == "Generosity" and not col_name == "Social support":
-        #        print(col_name)
-        #        countries.drop(col_name, axis=1, inplace=True)
+        self.countries = countries
 
-        # run kmean
         kmeans = KMeans(n_clusters=n_clusters, n_init=n_init).fit(countries)
         centroids = kmeans.cluster_centers_
 
         # scatter graph
-        plt.scatter(countries['Generosity'], countries['Social support'], c=kmeans.labels_.astype(float), s=50, alpha=0.5)
+        plt.scatter(countries['Generosity'], countries['Social support'],
+                    c=kmeans.labels_.astype(float), s=50, alpha=0.5)
         plt.scatter(centroids[:, 0], centroids[:, 1], c='red', s=40, alpha=0.8)
         plt.title("Scatter Graph")
         plt.xlabel("Generosity")
         plt.ylabel("Social support")
         plt.savefig("scatterGraph.png")
-        #plt.show()
 
-        # predict the model
-        countries['cluster'] = kmeans.predict(countries)
-        # fix some columns name
-        countries.reset_index(inplace=True)
-        # convert the type
-        countries["cluster"] = countries["cluster"].apply(str)
-        # save excel
-        countries.to_excel('data_with_labels.xlsx', index=False)
+        self.export_to_excel_file(kmeans)
 
         # map country by code
+        self.map_countries()
+
+        # country map
+        fig = px.choropleth(countries, locations="code", color="cluster")
+        fig.update_layout(title_text="Horopleth Map")
+        py.sign_in("almogar", "mLHBievIbPjHU25fPKj2")
+        fileName = os.path.join(os.getcwd(), "countryMap.png")
+        py.image.save_as(fig, filename=fileName)
+        # fig.show()
+        return "Clustering process finished"
+
+    # export file to excel
+    def export_to_excel_file(self, kmeans):
+        # predict the model
+        self.countries['cluster'] = kmeans.predict(self.countries)
+        # fix columns names
+        self.countries.reset_index(inplace=True)
+        # convert the type
+        self.countries["cluster"] = self.countries["cluster"].apply(str)
+        # save to excel file
+        self.countries.to_excel('data_with_labels.xlsx', index=False)
+
+    # map countries code to the appropriate country
+    def map_countries(self):
         countries_code = {}
         for country in pycountry.countries:
             countries_code[country.name] = country.alpha_2
 
-        code_temp = countries["country"].copy()
+        code_temp = self.countries["country"].copy()
         convert_ISO_3166_2_to_1 = {
             'AF': 'AFG',
             'AX': 'ALA',
@@ -307,24 +312,14 @@ class classify:
             'ZM': 'ZMB',
             'ZW': 'ZWE'
         }
+
         index = 0
-        for country in countries["country"]:
-            if countries_code.__contains__(country) and convert_ISO_3166_2_to_1.__contains__(countries_code[country]):
+        for country in self.countries["country"]:
+            if countries_code.__contains__(country) and convert_ISO_3166_2_to_1.__contains__(
+                    countries_code[country]):
                 code_temp.update(pd.Series([convert_ISO_3166_2_to_1[countries_code[country]]], index=[index]))
             else:
                 code_temp.update(pd.Series(['Unknown code'], index=[index]))
             index += 1
-        countries["code"] = code_temp
-        countries = countries[countries["code"] != 'Unknown code'].copy()
-
-        # country map
-        fig = px.choropleth(countries, locations="code", color="cluster")
-        fig.update_layout(title_text="Horopleth Map")
-        py.sign_in("almogar", "mLHBievIbPjHU25fPKj2")
-        fileName = os.path.join(os.getcwd(), "countryMap.png")
-        py.image.save_as(fig, filename=fileName)
-        #fig.show()
-        return "Clustering process finished"
-
-
-
+        self.countries["code"] = code_temp
+        self.countries = self.countries[self.countries["code"] != 'Unknown code'].copy()
