@@ -7,6 +7,7 @@ import pycountry
 #import plotly.plotly as py
 import chart_studio.plotly as py
 import seaborn as sns
+import numpy as np
 
 
 class classify:
@@ -17,20 +18,25 @@ class classify:
     def KMean(self, countries, n_clusters = 3, n_init = 3):
         #np.random.seed(42)
         #inertia = []
-        #for i in range(2, n_clusters):
+        #for i in range(2, 50):
         #    kmeans = KMeans(n_clusters=i).fit(countries)
         #    inertia.append(kmeans.inertia_)
 
         # visualization of the model
-        #sns.pointplot(x=list(range(2, n_clusters)), y=inertia)
+        #sns.pointplot(x=list(range(2, 50)), y=inertia)
         #plt.title('SSE on K-Means based on # of clusters')
         #plt.show()
+        #for col_name in countries.columns:
+        #    if not col_name == "Generosity" and not col_name == "Social support":
+        #        print(col_name)
+        #        countries.drop(col_name, axis=1, inplace=True)
 
         kmeans = KMeans(n_clusters=n_clusters, n_init=n_init).fit(countries)
         centroids = kmeans.cluster_centers_
 
         plt.scatter(countries['Generosity'], countries['Social support'], c=kmeans.labels_.astype(float), s=50, alpha=0.5)
-        plt.scatter(centroids[:, 0], centroids[:, 1], c='red', s=50)
+        plt.scatter(centroids[:, 0], centroids[:, 1], c='red', s=40, alpha=0.8)
+        plt.legend()
         plt.title("Scatter Graph")
         plt.xlabel("Generosity")
         plt.ylabel("Social support")
