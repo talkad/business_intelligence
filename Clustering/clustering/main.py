@@ -9,7 +9,7 @@ if __name__ == '__main__':
     df, countries, err_msg = p.preprocess('Dataset.xlsx')
     # df, countries, err_msg = p.preprocess('C:\\Users\\שקד\\Documents\\business_intelligence\\Clustering\\Dataset.xlsx')
     #print(df.columns)
-    classter = classify()
-    classter.KMean(countries, 10)
+    #cluster = classify()
+    #cluster.KMean(countries, 5, 3)
     # print(len(countries))
 

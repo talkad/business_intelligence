@@ -1,9 +1,11 @@
+import os
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 import plotly.express as px
 import pycountry
+#import plotly.plotly as py
+import chart_studio.plotly as py
 import seaborn as sns
 
 
@@ -12,24 +14,28 @@ class classify:
     def __init__(self):
         self.ma = None
 
-    def KMean(self, countries, n_clusters = 3):
-        np.random.seed(42)
-        inertia = []
-        for i in range(2, n_clusters):
-            kmeans = KMeans(n_clusters=i).fit(countries)
-            inertia.append(kmeans.inertia_)
+    def KMean(self, countries, n_clusters = 3, n_init = 3):
+        #np.random.seed(42)
+        #inertia = []
+        #for i in range(2, n_clusters):
+        #    kmeans = KMeans(n_clusters=i).fit(countries)
+        #    inertia.append(kmeans.inertia_)
 
         # visualization of the model
-        sns.pointplot(x=list(range(2, n_clusters)), y=inertia)
-        plt.title('SSE on K-Means based on # of clusters')
-        plt.show()
+        #sns.pointplot(x=list(range(2, n_clusters)), y=inertia)
+        #plt.title('SSE on K-Means based on # of clusters')
+        #plt.show()
 
-        kmeans = KMeans(n_clusters=5, n_init=3).fit(countries)
+        kmeans = KMeans(n_clusters=n_clusters, n_init=n_init).fit(countries)
         centroids = kmeans.cluster_centers_
 
         plt.scatter(countries['Generosity'], countries['Social support'], c=kmeans.labels_.astype(float), s=50, alpha=0.5)
         plt.scatter(centroids[:, 0], centroids[:, 1], c='red', s=50)
-        plt.show()
+        plt.title("Scatter Graph")
+        plt.xlabel("Generosity")
+        plt.ylabel("Social support")
+        plt.savefig("scatterGraph.png")
+        #plt.show()
 
         countries['cluster'] = kmeans.predict(countries)
         countries.reset_index(inplace=True)
@@ -299,7 +305,12 @@ class classify:
         countries = countries[countries["code"] != 'Unknown code'].copy()
 
         fig = px.choropleth(countries, locations="code", color="cluster")
-        fig.show()
+        fig.update_layout(title_text="Horopleth Map")
+        py.sign_in("almogar", "mLHBievIbPjHU25fPKj2")
+        fileName = os.path.join(os.getcwd(), "countryMap.png")
+        py.image.save_as(fig, filename=fileName)
+        #fig.show()
+        return "Clustering process finished"
 
 
 

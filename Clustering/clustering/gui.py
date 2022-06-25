@@ -3,6 +3,7 @@ from tkinter import filedialog
 from tkinter import Tk, Label, Button, Entry, IntVar, END, W, E
 import tkinter.messagebox
 from preprocessor import preprocessor
+from classify import classify
 
 
 def error_msg(msg):
@@ -14,7 +15,7 @@ class Gui:
     def __init__(self, master):
         self.master = master
         master.title("K Means Clustering")
-
+        self.countries = None
         self.p = preprocessor()
 
         # start 1.1
@@ -106,20 +107,31 @@ class Gui:
             error_msg("Number of runs must be a positive integer")
             return False
         if self.cluster_num > self.row_num:
-            error_msg("Number of clusters must be a smaller than the number of columns")
+            error_msg("Number of clusters must be a smaller than the number of rows")
             return False
-        return 0  # todo kmeans()
+
+        cluster = classify()
+        error_msg(cluster.KMean(self.countries, self.cluster_num, self.runs_num))
+
+        self.map_img = PhotoImage(file='countryMap.png')
+        self.map_canvas = Canvas(self.master, width=self.map_img.width(), height=self.map_img.height())
+        self.map_canvas.grid(row=5, column=0)
+        self.map_canvas.create_image(0, 0, anchor=NW, image=self.map_img)
+
+        self.scatter_img = PhotoImage(file='scatterGraph.png')
+        self.scatter_canvas = Canvas(self.master, width=self.scatter_img.width(), height=self.scatter_img.height())
+        self.scatter_canvas.grid(row=5, column=1)
+        self.scatter_canvas.create_image(0, 0, anchor=NW, image=self.scatter_img)
 
     def pre_processing(self):
         if len(self.file_path.get()) > 0:
-
-            df, countries, err_msg = self.p.preprocess(self.file_path.get())
+            _, self.countries, err_msg = self.p.preprocess(self.file_path.get())
             error_msg(err_msg)
 
-            if df is None:
+            if self.countries is None:
                 return False
 
-            self.row_num = len(df)
+            self.row_num = len(self.countries)
 
             return True
         else:
@@ -128,6 +140,6 @@ class Gui:
 
 
 window = Tk()
-window.geometry("1000x500")
+window.geometry("1280x720")
 my_gui = Gui(window)
 window.mainloop()
