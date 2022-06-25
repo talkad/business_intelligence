@@ -11,6 +11,11 @@ class preprocessor:
     def load_data(self, filepath):  # todo needs to call the rest of the processing
         try:
             self.df = pd.read_excel(filepath, index_col=0)
+
+            if len(df) == 0:
+                self.df = None
+                return f'file is empty'
+
         except FileNotFoundError:
             self.df = None
             return f'file not found at path: {filepath}'

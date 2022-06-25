@@ -15,7 +15,7 @@ class classify:
     def __init__(self):
         self.ma = None
 
-    def KMean(self, countries, n_clusters = 3, n_init = 3):
+    def KMean(self, countries, n_clusters=3, n_init=3):
         #np.random.seed(42)
         #inertia = []
         #for i in range(2, 50):
@@ -46,6 +46,8 @@ class classify:
         countries['cluster'] = kmeans.predict(countries)
         countries.reset_index(inplace=True)
         countries["cluster"] = countries["cluster"].apply(str)
+
+        countries.to_excel('data_with_labels.xlsx', index=False)
 
         countries_code = {}
         for country in pycountry.countries:
