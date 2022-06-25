@@ -22,6 +22,7 @@ class preprocessor:
         self.df.fillna(mean, inplace=True)
 
     def data_normalization(self):
+        #print(self.df[self.df.columns])
         self.df[self.df.columns] = StandardScaler().fit_transform(self.df[self.df.columns])
 
     def data_grouping(self):
