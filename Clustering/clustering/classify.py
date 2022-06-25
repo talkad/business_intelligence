@@ -31,24 +31,29 @@ class classify:
         #        print(col_name)
         #        countries.drop(col_name, axis=1, inplace=True)
 
+        # run kmean
         kmeans = KMeans(n_clusters=n_clusters, n_init=n_init).fit(countries)
         centroids = kmeans.cluster_centers_
 
+        # scatter graph
         plt.scatter(countries['Generosity'], countries['Social support'], c=kmeans.labels_.astype(float), s=50, alpha=0.5)
         plt.scatter(centroids[:, 0], centroids[:, 1], c='red', s=40, alpha=0.8)
-        plt.legend()
         plt.title("Scatter Graph")
         plt.xlabel("Generosity")
         plt.ylabel("Social support")
         plt.savefig("scatterGraph.png")
         #plt.show()
 
+        # predict the model
         countries['cluster'] = kmeans.predict(countries)
+        # fix some columns name
         countries.reset_index(inplace=True)
+        # convert the type
         countries["cluster"] = countries["cluster"].apply(str)
-
+        # save excel
         countries.to_excel('data_with_labels.xlsx', index=False)
 
+        # map country by code
         countries_code = {}
         for country in pycountry.countries:
             countries_code[country.name] = country.alpha_2
@@ -312,6 +317,7 @@ class classify:
         countries["code"] = code_temp
         countries = countries[countries["code"] != 'Unknown code'].copy()
 
+        # country map
         fig = px.choropleth(countries, locations="code", color="cluster")
         fig.update_layout(title_text="Horopleth Map")
         py.sign_in("almogar", "mLHBievIbPjHU25fPKj2")

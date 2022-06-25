@@ -12,7 +12,7 @@ class preprocessor:
         try:
             self.df = pd.read_excel(filepath, index_col=0)
 
-            if len(df) == 0:
+            if len(self.df) == 0:
                 self.df = None
                 return f'file is empty'
 
