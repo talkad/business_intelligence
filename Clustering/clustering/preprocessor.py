@@ -8,7 +8,9 @@ class preprocessor:
         self.df = None
         self.df_countries = None
 
-    def load_data(self, filepath):  # todo needs to call the rest of the processing
+    # load the data from a given path
+    # if file doesnt exists or empty- error message will be returned
+    def load_data(self, filepath):
         try:
             self.df = pd.read_excel(filepath, index_col=0)
 
@@ -22,18 +24,22 @@ class preprocessor:
 
         return ''
 
+    # impute the missing data with feature mean
     def impute_data(self):
         mean = self.df.mean(numeric_only=True)
         self.df.fillna(mean, inplace=True)
 
+    # normalize the features by standard deviation
     def data_normalization(self):
-        #print(self.df[self.df.columns])
+        # print(self.df[self.df.columns])
         self.df[self.df.columns] = StandardScaler().fit_transform(self.df[self.df.columns])
 
+    # group by country and aggregate by mean value
     def data_grouping(self):
         self.df_countries = self.df.groupby(['country']).mean()
         self.df_countries.drop(['year'], axis=1, inplace=True)
 
+    # the full pipeline of the preprocessing
     def preprocess(self, filename):
         err_msg = self.load_data(filename)
 

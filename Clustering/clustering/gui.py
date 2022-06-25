@@ -1,11 +1,13 @@
-from tkinter import *
-from tkinter import filedialog
-from tkinter import Tk, Label, Button, Entry, IntVar, END, W, E
 import tkinter.messagebox
-from preprocessor import preprocessor
+from tkinter import *
+from tkinter import Tk, Label, Button, Entry, W
+from tkinter import filedialog
+
 from classify import classify
+from preprocessor import preprocessor
 
 
+# calls a popup window with the provided message
 def error_msg(msg):
     tkinter.messagebox.showinfo("K Means Clustering", msg)
 
@@ -35,7 +37,7 @@ class Gui:
 
         self.cluster_num_label = Label(master, text="Number of clusters k:")
 
-        vcmd_cluster = master.register(self.validate_cluster)  # we have to wrap the command
+        vcmd_cluster = master.register(self.validate_cluster)
         self.cluster_num_tb = Entry(master, validate="key", validatecommand=(vcmd_cluster, '%P'))
 
         self.cluster_num_label.grid(row=1, column=0, sticky=W)
@@ -44,33 +46,28 @@ class Gui:
         # start 1.3
         self.runs_num_label = Label(master, text="Number of runs:")
 
-        vcmd_runs = master.register(self.validate_runs)  # we have to wrap the command
+        vcmd_runs = master.register(self.validate_runs)
         self.runs_num_tb = Entry(master, validate="key", validatecommand=(vcmd_runs, '%P'))
 
         self.runs_num_label.grid(row=2, column=0, sticky=W)
         self.runs_num_tb.grid(row=2, column=1, sticky=W)
 
         # start 1.4
-        self.process_button = Button(master, text="Pre-Process", command=self.pre_processing)  # todo add function
+        self.process_button = Button(master, text="Pre-Process", command=self.pre_processing)
         self.process_button.grid(row=3, column=1, sticky=W)
 
         # start 1.5
         self.cluster_button = Button(master, text="Cluster", command=self.check_kmeans)
         self.cluster_button.grid(row=4, column=1, sticky=W)
 
-        # self.cluster_canvas = Canvas(master, width=300, height=300) # todo this is template for showing pic
-        # self.cluster_canvas.grid(row=5, column=0)
-        # self.img = PhotoImage(file='apple.png')
-        # self.cluster_canvas.create_image(0, 0, anchor=NW, image=self.img)
-
+    # open file browser menu
     def browse_files(self):
         file_name = filedialog.askopenfilename(initialdir="/",
                                                title="Select a file",
                                                filetypes=[("Excel files", "*.xlsx")])
         self.file_path.set(file_name)
-        # Change label contents
-        # label_file_explorer.configure(text="File Opened: " + filename)
 
+    # verify cluster num is an integer > 0
     def validate_cluster(self, new_text):
         if not new_text:  # the field is being cleared
             self.cluster_num = 0
@@ -85,6 +82,7 @@ class Gui:
         except ValueError:
             return False
 
+    # verify runs num is an integer > 0
     def validate_runs(self, new_text):
         if not new_text:  # the field is being cleared
             self.runs_num = 0
@@ -99,6 +97,7 @@ class Gui:
         except ValueError:
             return False
 
+    # verify input legality and call KMean
     def check_kmeans(self):
         if self.cluster_num < 1:
             error_msg("K clusters must be a positive integer")
@@ -123,6 +122,7 @@ class Gui:
         self.scatter_canvas.grid(row=5, column=1)
         self.scatter_canvas.create_image(0, 0, anchor=NW, image=self.scatter_img)
 
+    # verify path file legality and call pre-processing
     def pre_processing(self):
         if len(self.file_path.get()) > 0:
             _, self.countries, err_msg = self.p.preprocess(self.file_path.get())
